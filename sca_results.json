@@ -1,0 +1,3320 @@
+{
+  "metadata" : {
+    "requestDate" : "2023-02-08T02:14:21.181+00:00"
+  },
+  "records" : [ {
+    "metadata" : {
+      "recordType" : "SCAN",
+      "report" : "https://sca.analysiscenter.veracode.com/teams/100tmmEb/scans/46223717"
+    },
+    "graphs" : [ {
+      "coords" : {
+        "coordinateType" : "MAVEN",
+        "coordinate1" : "com.synopsys.polaris.sigdemo",
+        "coordinate2" : "insecure-bank",
+        "version" : "1.0.3",
+        "scope" : null,
+        "platform" : null,
+        "commitHash" : null
+      },
+      "directs" : [ {
+        "coords" : {
+          "coordinateType" : "MAVEN",
+          "coordinate1" : "com.jolbox",
+          "coordinate2" : "bonecp",
+          "version" : "0.8.0.RELEASE",
+          "scope" : "compile",
+          "platform" : null,
+          "commitHash" : null
+        },
+        "directs" : [ {
+          "coords" : {
+            "coordinateType" : "MAVEN",
+            "coordinate1" : "com.google.guava",
+            "coordinate2" : "guava",
+            "version" : "15.0",
+            "scope" : "compile",
+            "platform" : null,
+            "commitHash" : null
+          },
+          "directs" : [ ],
+          "filename" : "pom.xml",
+          "lineNumber" : null,
+          "moduleName" : null,
+          "sha1" : null,
+          "sha2" : null,
+          "bytecodeHash" : null
+        } ],
+        "filename" : "pom.xml",
+        "lineNumber" : null,
+        "moduleName" : null,
+        "sha1" : null,
+        "sha2" : null,
+        "bytecodeHash" : null
+      }, {
+        "coords" : {
+          "coordinateType" : "MAVEN",
+          "coordinate1" : "org.slf4j",
+          "coordinate2" : "slf4j-api",
+          "version" : "1.7.13",
+          "scope" : "compile",
+          "platform" : null,
+          "commitHash" : null
+        },
+        "directs" : [ ],
+        "filename" : "pom.xml",
+        "lineNumber" : null,
+        "moduleName" : null,
+        "sha1" : null,
+        "sha2" : null,
+        "bytecodeHash" : null
+      }, {
+        "coords" : {
+          "coordinateType" : "MAVEN",
+          "coordinate1" : "commons-fileupload",
+          "coordinate2" : "commons-fileupload",
+          "version" : "1.3.3",
+          "scope" : "compile",
+          "platform" : null,
+          "commitHash" : null
+        },
+        "directs" : [ {
+          "coords" : {
+            "coordinateType" : "MAVEN",
+            "coordinate1" : "commons-io",
+            "coordinate2" : "commons-io",
+            "version" : "2.2",
+            "scope" : "compile",
+            "platform" : null,
+            "commitHash" : null
+          },
+          "directs" : [ ],
+          "filename" : "pom.xml",
+          "lineNumber" : null,
+          "moduleName" : null,
+          "sha1" : null,
+          "sha2" : null,
+          "bytecodeHash" : null
+        } ],
+        "filename" : "pom.xml",
+        "lineNumber" : null,
+        "moduleName" : null,
+        "sha1" : null,
+        "sha2" : null,
+        "bytecodeHash" : null
+      }, {
+        "coords" : {
+          "coordinateType" : "MAVEN",
+          "coordinate1" : "javax.servlet",
+          "coordinate2" : "jstl",
+          "version" : "1.2",
+          "scope" : "compile",
+          "platform" : null,
+          "commitHash" : null
+        },
+        "directs" : [ ],
+        "filename" : "pom.xml",
+        "lineNumber" : null,
+        "moduleName" : null,
+        "sha1" : null,
+        "sha2" : null,
+        "bytecodeHash" : null
+      }, {
+        "coords" : {
+          "coordinateType" : "MAVEN",
+          "coordinate1" : "org.springframework.security",
+          "coordinate2" : "spring-security-web",
+          "version" : "4.0.3.RELEASE",
+          "scope" : "compile",
+          "platform" : null,
+          "commitHash" : null
+        },
+        "directs" : [ ],
+        "filename" : "pom.xml",
+        "lineNumber" : null,
+        "moduleName" : null,
+        "sha1" : null,
+        "sha2" : null,
+        "bytecodeHash" : null
+      }, {
+        "coords" : {
+          "coordinateType" : "MAVEN",
+          "coordinate1" : "javax.servlet.jsp",
+          "coordinate2" : "javax.servlet.jsp-api",
+          "version" : "2.3.1",
+          "scope" : "provided",
+          "platform" : null,
+          "commitHash" : null
+        },
+        "directs" : [ ],
+        "filename" : "pom.xml",
+        "lineNumber" : null,
+        "moduleName" : null,
+        "sha1" : null,
+        "sha2" : null,
+        "bytecodeHash" : null
+      }, {
+        "coords" : {
+          "coordinateType" : "MAVEN",
+          "coordinate1" : "org.hibernate",
+          "coordinate2" : "hibernate-core",
+          "version" : "5.3.0.Final",
+          "scope" : "compile",
+          "platform" : null,
+          "commitHash" : null
+        },
+        "directs" : [ {
+          "coords" : {
+            "coordinateType" : "MAVEN",
+            "coordinate1" : "org.javassist",
+            "coordinate2" : "javassist",
+            "version" : "3.22.0-GA",
+            "scope" : "compile",
+            "platform" : null,
+            "commitHash" : null
+          },
+          "directs" : [ ],
+          "filename" : "pom.xml",
+          "lineNumber" : null,
+          "moduleName" : null,
+          "sha1" : null,
+          "sha2" : null,
+          "bytecodeHash" : null
+        }, {
+          "coords" : {
+            "coordinateType" : "MAVEN",
+            "coordinate1" : "com.fasterxml",
+            "coordinate2" : "classmate",
+            "version" : "1.3.0",
+            "scope" : "compile",
+            "platform" : null,
+            "commitHash" : null
+          },
+          "directs" : [ ],
+          "filename" : "pom.xml",
+          "lineNumber" : null,
+          "moduleName" : null,
+          "sha1" : null,
+          "sha2" : null,
+          "bytecodeHash" : null
+        }, {
+          "coords" : {
+            "coordinateType" : "MAVEN",
+            "coordinate1" : "javax.persistence",
+            "coordinate2" : "javax.persistence-api",
+            "version" : "2.2",
+            "scope" : "compile",
+            "platform" : null,
+            "commitHash" : null
+          },
+          "directs" : [ ],
+          "filename" : "pom.xml",
+          "lineNumber" : null,
+          "moduleName" : null,
+          "sha1" : null,
+          "sha2" : null,
+          "bytecodeHash" : null
+        }, {
+          "coords" : {
+            "coordinateType" : "MAVEN",
+            "coordinate1" : "net.bytebuddy",
+            "coordinate2" : "byte-buddy",
+            "version" : "1.8.0",
+            "scope" : "compile",
+            "platform" : null,
+            "commitHash" : null
+          },
+          "directs" : [ ],
+          "filename" : "pom.xml",
+          "lineNumber" : null,
+          "moduleName" : null,
+          "sha1" : null,
+          "sha2" : null,
+          "bytecodeHash" : null
+        }, {
+          "coords" : {
+            "coordinateType" : "MAVEN",
+            "coordinate1" : "antlr",
+            "coordinate2" : "antlr",
+            "version" : "2.7.7",
+            "scope" : "compile",
+            "platform" : null,
+            "commitHash" : null
+          },
+          "directs" : [ ],
+          "filename" : "pom.xml",
+          "lineNumber" : null,
+          "moduleName" : null,
+          "sha1" : null,
+          "sha2" : null,
+          "bytecodeHash" : null
+        }, {
+          "coords" : {
+            "coordinateType" : "MAVEN",
+            "coordinate1" : "org.hibernate.common",
+            "coordinate2" : "hibernate-commons-annotations",
+            "version" : "5.0.3.Final",
+            "scope" : "compile",
+            "platform" : null,
+            "commitHash" : null
+          },
+          "directs" : [ ],
+          "filename" : "pom.xml",
+          "lineNumber" : null,
+          "moduleName" : null,
+          "sha1" : null,
+          "sha2" : null,
+          "bytecodeHash" : null
+        }, {
+          "coords" : {
+            "coordinateType" : "MAVEN",
+            "coordinate1" : "org.jboss.logging",
+            "coordinate2" : "jboss-logging",
+            "version" : "3.3.2.Final",
+            "scope" : "compile",
+            "platform" : null,
+            "commitHash" : null
+          },
+          "directs" : [ ],
+          "filename" : "pom.xml",
+          "lineNumber" : null,
+          "moduleName" : null,
+          "sha1" : null,
+          "sha2" : null,
+          "bytecodeHash" : null
+        }, {
+          "coords" : {
+            "coordinateType" : "MAVEN",
+            "coordinate1" : "org.jboss.spec.javax.transaction",
+            "coordinate2" : "jboss-transaction-api_1.2_spec",
+            "version" : "1.0.1.Final",
+            "scope" : "compile",
+            "platform" : null,
+            "commitHash" : null
+          },
+          "directs" : [ ],
+          "filename" : "pom.xml",
+          "lineNumber" : null,
+          "moduleName" : null,
+          "sha1" : null,
+          "sha2" : null,
+          "bytecodeHash" : null
+        }, {
+          "coords" : {
+            "coordinateType" : "MAVEN",
+            "coordinate1" : "dom4j",
+            "coordinate2" : "dom4j",
+            "version" : "1.6.1",
+            "scope" : "compile",
+            "platform" : null,
+            "commitHash" : null
+          },
+          "directs" : [ ],
+          "filename" : "pom.xml",
+          "lineNumber" : null,
+          "moduleName" : null,
+          "sha1" : null,
+          "sha2" : null,
+          "bytecodeHash" : null
+        }, {
+          "coords" : {
+            "coordinateType" : "MAVEN",
+            "coordinate1" : "org.jboss",
+            "coordinate2" : "jandex",
+            "version" : "2.0.3.Final",
+            "scope" : "compile",
+            "platform" : null,
+            "commitHash" : null
+          },
+          "directs" : [ ],
+          "filename" : "pom.xml",
+          "lineNumber" : null,
+          "moduleName" : null,
+          "sha1" : null,
+          "sha2" : null,
+          "bytecodeHash" : null
+        } ],
+        "filename" : "pom.xml",
+        "lineNumber" : null,
+        "moduleName" : null,
+        "sha1" : null,
+        "sha2" : null,
+        "bytecodeHash" : null
+      }, {
+        "coords" : {
+          "coordinateType" : "MAVEN",
+          "coordinate1" : "com.sun.xml.bind",
+          "coordinate2" : "jaxb-impl",
+          "version" : "2.3.0",
+          "scope" : "compile",
+          "platform" : null,
+          "commitHash" : null
+        },
+        "directs" : [ ],
+        "filename" : "pom.xml",
+        "lineNumber" : null,
+        "moduleName" : null,
+        "sha1" : null,
+        "sha2" : null,
+        "bytecodeHash" : null
+      }, {
+        "coords" : {
+          "coordinateType" : "MAVEN",
+          "coordinate1" : "javax.validation",
+          "coordinate2" : "validation-api",
+          "version" : "1.0.0.GA",
+          "scope" : "compile",
+          "platform" : null,
+          "commitHash" : null
+        },
+        "directs" : [ ],
+        "filename" : "pom.xml",
+        "lineNumber" : null,
+        "moduleName" : null,
+        "sha1" : null,
+        "sha2" : null,
+        "bytecodeHash" : null
+      }, {
+        "coords" : {
+          "coordinateType" : "MAVEN",
+          "coordinate1" : "javax.xml.bind",
+          "coordinate2" : "jaxb-api",
+          "version" : "2.3.0",
+          "scope" : "compile",
+          "platform" : null,
+          "commitHash" : null
+        },
+        "directs" : [ ],
+        "filename" : "pom.xml",
+        "lineNumber" : null,
+        "moduleName" : null,
+        "sha1" : null,
+        "sha2" : null,
+        "bytecodeHash" : null
+      }, {
+        "coords" : {
+          "coordinateType" : "MAVEN",
+          "coordinate1" : "com.fasterxml.jackson.core",
+          "coordinate2" : "jackson-core",
+          "version" : "2.9.10",
+          "scope" : "compile",
+          "platform" : null,
+          "commitHash" : null
+        },
+        "directs" : [ ],
+        "filename" : "pom.xml",
+        "lineNumber" : null,
+        "moduleName" : null,
+        "sha1" : null,
+        "sha2" : null,
+        "bytecodeHash" : null
+      }, {
+        "coords" : {
+          "coordinateType" : "MAVEN",
+          "coordinate1" : "com.sun.xml.bind",
+          "coordinate2" : "jaxb-core",
+          "version" : "2.3.0",
+          "scope" : "compile",
+          "platform" : null,
+          "commitHash" : null
+        },
+        "directs" : [ ],
+        "filename" : "pom.xml",
+        "lineNumber" : null,
+        "moduleName" : null,
+        "sha1" : null,
+        "sha2" : null,
+        "bytecodeHash" : null
+      }, {
+        "coords" : {
+          "coordinateType" : "MAVEN",
+          "coordinate1" : "org.springframework",
+          "coordinate2" : "spring-jdbc",
+          "version" : "4.2.3.RELEASE",
+          "scope" : "compile",
+          "platform" : null,
+          "commitHash" : null
+        },
+        "directs" : [ {
+          "coords" : {
+            "coordinateType" : "MAVEN",
+            "coordinate1" : "org.springframework",
+            "coordinate2" : "spring-tx",
+            "version" : "4.2.3.RELEASE",
+            "scope" : "compile",
+            "platform" : null,
+            "commitHash" : null
+          },
+          "directs" : [ ],
+          "filename" : "pom.xml",
+          "lineNumber" : null,
+          "moduleName" : null,
+          "sha1" : null,
+          "sha2" : null,
+          "bytecodeHash" : null
+        } ],
+        "filename" : "pom.xml",
+        "lineNumber" : null,
+        "moduleName" : null,
+        "sha1" : null,
+        "sha2" : null,
+        "bytecodeHash" : null
+      }, {
+        "coords" : {
+          "coordinateType" : "MAVEN",
+          "coordinate1" : "commons-pool",
+          "coordinate2" : "commons-pool",
+          "version" : "1.5.3",
+          "scope" : "compile",
+          "platform" : null,
+          "commitHash" : null
+        },
+        "directs" : [ ],
+        "filename" : "pom.xml",
+        "lineNumber" : null,
+        "moduleName" : null,
+        "sha1" : null,
+        "sha2" : null,
+        "bytecodeHash" : null
+      }, {
+        "coords" : {
+          "coordinateType" : "MAVEN",
+          "coordinate1" : "javax.activation",
+          "coordinate2" : "activation",
+          "version" : "1.1.1",
+          "scope" : "compile",
+          "platform" : null,
+          "commitHash" : null
+        },
+        "directs" : [ ],
+        "filename" : "pom.xml",
+        "lineNumber" : null,
+        "moduleName" : null,
+        "sha1" : null,
+        "sha2" : null,
+        "bytecodeHash" : null
+      }, {
+        "coords" : {
+          "coordinateType" : "MAVEN",
+          "coordinate1" : "org.springframework",
+          "coordinate2" : "spring-web",
+          "version" : "4.2.3.RELEASE",
+          "scope" : "compile",
+          "platform" : null,
+          "commitHash" : null
+        },
+        "directs" : [ {
+          "coords" : {
+            "coordinateType" : "MAVEN",
+            "coordinate1" : "org.springframework",
+            "coordinate2" : "spring-aop",
+            "version" : "4.2.3.RELEASE",
+            "scope" : "compile",
+            "platform" : null,
+            "commitHash" : null
+          },
+          "directs" : [ ],
+          "filename" : "pom.xml",
+          "lineNumber" : null,
+          "moduleName" : null,
+          "sha1" : null,
+          "sha2" : null,
+          "bytecodeHash" : null
+        } ],
+        "filename" : "pom.xml",
+        "lineNumber" : null,
+        "moduleName" : null,
+        "sha1" : null,
+        "sha2" : null,
+        "bytecodeHash" : null
+      }, {
+        "coords" : {
+          "coordinateType" : "MAVEN",
+          "coordinate1" : "commons-dbcp",
+          "coordinate2" : "commons-dbcp",
+          "version" : "1.2.2",
+          "scope" : "compile",
+          "platform" : null,
+          "commitHash" : null
+        },
+        "directs" : [ ],
+        "filename" : "pom.xml",
+        "lineNumber" : null,
+        "moduleName" : null,
+        "sha1" : null,
+        "sha2" : null,
+        "bytecodeHash" : null
+      }, {
+        "coords" : {
+          "coordinateType" : "MAVEN",
+          "coordinate1" : "org.hsqldb",
+          "coordinate2" : "hsqldb",
+          "version" : "2.3.4",
+          "scope" : "compile",
+          "platform" : null,
+          "commitHash" : null
+        },
+        "directs" : [ ],
+        "filename" : "pom.xml",
+        "lineNumber" : null,
+        "moduleName" : null,
+        "sha1" : null,
+        "sha2" : null,
+        "bytecodeHash" : null
+      }, {
+        "coords" : {
+          "coordinateType" : "MAVEN",
+          "coordinate1" : "org.springframework.security",
+          "coordinate2" : "spring-security-core",
+          "version" : "4.0.3.RELEASE",
+          "scope" : "compile",
+          "platform" : null,
+          "commitHash" : null
+        },
+        "directs" : [ {
+          "coords" : {
+            "coordinateType" : "MAVEN",
+            "coordinate1" : "aopalliance",
+            "coordinate2" : "aopalliance",
+            "version" : "1.0",
+            "scope" : "compile",
+            "platform" : null,
+            "commitHash" : null
+          },
+          "directs" : [ ],
+          "filename" : "pom.xml",
+          "lineNumber" : null,
+          "moduleName" : null,
+          "sha1" : null,
+          "sha2" : null,
+          "bytecodeHash" : null
+        } ],
+        "filename" : "pom.xml",
+        "lineNumber" : null,
+        "moduleName" : null,
+        "sha1" : null,
+        "sha2" : null,
+        "bytecodeHash" : null
+      }, {
+        "coords" : {
+          "coordinateType" : "MAVEN",
+          "coordinate1" : "org.postgresql",
+          "coordinate2" : "postgresql",
+          "version" : "9.2-1004-jdbc4",
+          "scope" : "compile",
+          "platform" : null,
+          "commitHash" : null
+        },
+        "directs" : [ ],
+        "filename" : "pom.xml",
+        "lineNumber" : null,
+        "moduleName" : null,
+        "sha1" : null,
+        "sha2" : null,
+        "bytecodeHash" : null
+      }, {
+        "coords" : {
+          "coordinateType" : "MAVEN",
+          "coordinate1" : "commons-logging",
+          "coordinate2" : "commons-logging",
+          "version" : "1.1.1",
+          "scope" : "compile",
+          "platform" : null,
+          "commitHash" : null
+        },
+        "directs" : [ ],
+        "filename" : "pom.xml",
+        "lineNumber" : null,
+        "moduleName" : null,
+        "sha1" : null,
+        "sha2" : null,
+        "bytecodeHash" : null
+      }, {
+        "coords" : {
+          "coordinateType" : "MAVEN",
+          "coordinate1" : "javax.servlet",
+          "coordinate2" : "javax.servlet-api",
+          "version" : "3.1.0",
+          "scope" : "provided",
+          "platform" : null,
+          "commitHash" : null
+        },
+        "directs" : [ ],
+        "filename" : "pom.xml",
+        "lineNumber" : null,
+        "moduleName" : null,
+        "sha1" : null,
+        "sha2" : null,
+        "bytecodeHash" : null
+      }, {
+        "coords" : {
+          "coordinateType" : "MAVEN",
+          "coordinate1" : "org.springframework.security",
+          "coordinate2" : "spring-security-config",
+          "version" : "4.0.3.RELEASE",
+          "scope" : "compile",
+          "platform" : null,
+          "commitHash" : null
+        },
+        "directs" : [ ],
+        "filename" : "pom.xml",
+        "lineNumber" : null,
+        "moduleName" : null,
+        "sha1" : null,
+        "sha2" : null,
+        "bytecodeHash" : null
+      }, {
+        "coords" : {
+          "coordinateType" : "MAVEN",
+          "coordinate1" : "org.springframework",
+          "coordinate2" : "spring-webmvc",
+          "version" : "4.2.3.RELEASE",
+          "scope" : "compile",
+          "platform" : null,
+          "commitHash" : null
+        },
+        "directs" : [ {
+          "coords" : {
+            "coordinateType" : "MAVEN",
+            "coordinate1" : "org.springframework",
+            "coordinate2" : "spring-expression",
+            "version" : "4.2.3.RELEASE",
+            "scope" : "compile",
+            "platform" : null,
+            "commitHash" : null
+          },
+          "directs" : [ ],
+          "filename" : "pom.xml",
+          "lineNumber" : null,
+          "moduleName" : null,
+          "sha1" : null,
+          "sha2" : null,
+          "bytecodeHash" : null
+        }, {
+          "coords" : {
+            "coordinateType" : "MAVEN",
+            "coordinate1" : "org.springframework",
+            "coordinate2" : "spring-core",
+            "version" : "4.2.3.RELEASE",
+            "scope" : "compile",
+            "platform" : null,
+            "commitHash" : null
+          },
+          "directs" : [ ],
+          "filename" : "pom.xml",
+          "lineNumber" : null,
+          "moduleName" : null,
+          "sha1" : null,
+          "sha2" : null,
+          "bytecodeHash" : null
+        }, {
+          "coords" : {
+            "coordinateType" : "MAVEN",
+            "coordinate1" : "org.springframework",
+            "coordinate2" : "spring-beans",
+            "version" : "4.2.3.RELEASE",
+            "scope" : "compile",
+            "platform" : null,
+            "commitHash" : null
+          },
+          "directs" : [ ],
+          "filename" : "pom.xml",
+          "lineNumber" : null,
+          "moduleName" : null,
+          "sha1" : null,
+          "sha2" : null,
+          "bytecodeHash" : null
+        }, {
+          "coords" : {
+            "coordinateType" : "MAVEN",
+            "coordinate1" : "org.springframework",
+            "coordinate2" : "spring-context",
+            "version" : "4.2.3.RELEASE",
+            "scope" : "compile",
+            "platform" : null,
+            "commitHash" : null
+          },
+          "directs" : [ ],
+          "filename" : "pom.xml",
+          "lineNumber" : null,
+          "moduleName" : null,
+          "sha1" : null,
+          "sha2" : null,
+          "bytecodeHash" : null
+        } ],
+        "filename" : "pom.xml",
+        "lineNumber" : null,
+        "moduleName" : null,
+        "sha1" : null,
+        "sha2" : null,
+        "bytecodeHash" : null
+      } ],
+      "filename" : "pom.xml",
+      "lineNumber" : null,
+      "moduleName" : null,
+      "sha1" : null,
+      "sha2" : null,
+      "bytecodeHash" : null
+    } ],
+    "libraries" : [ {
+      "name" : "antlr",
+      "description" : "antlr:antlr",
+      "author" : null,
+      "authorUrl" : null,
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "antlr",
+      "coordinate2" : "antlr",
+      "bugTrackerUrl" : null,
+      "codeRepoType" : null,
+      "codeRepoUrl" : null,
+      "latestRelease" : "3.0ea8",
+      "latestReleaseDate" : "2007-01-14T01:29:33.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "2.7.7",
+        "releaseDate" : "2007-01-13T06:28:39.000+00:00",
+        "sha1" : "83cd2cd674a217ade95a4bb83a8a14f351f48bd0",
+        "sha2" : "88fbda4b912596b9f56e8e12e580cc954bacfb51776ecfddd3e18fc1cf56dc4c",
+        "bytecodeHash" : "2b379ee9e08887ab4dc2ef3db0d300234c73f1d88437d6bdfdc80c249a3390ed",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "BSD3",
+          "license" : "BSD 3-Clause \"New\" or \"Revised\" License (BSD-3-Clause)",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : "BSD-3-Clause"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/450?version=2.7.7"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/450"
+      }
+    }, {
+      "name" : "AOP alliance",
+      "description" : "AOP Alliance",
+      "author" : null,
+      "authorUrl" : "http://aopalliance.sourceforge.net",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "aopalliance",
+      "coordinate2" : "aopalliance",
+      "bugTrackerUrl" : null,
+      "codeRepoType" : null,
+      "codeRepoUrl" : null,
+      "latestRelease" : "1.0",
+      "latestReleaseDate" : "2007-02-26T22:43:40.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "1.0",
+        "releaseDate" : "2007-02-26T22:43:40.000+00:00",
+        "sha1" : "0235ba8b489512805ac13a8f9ea77a1ca5ebe3e8",
+        "sha2" : "0addec670fedcd3f113c5c8091d783280d23f75e3acb841b61a9cdb079376a08",
+        "bytecodeHash" : "1c79fd0f7ad61af0d322a1a94492fe8a93d5a3649e775931af0df60d2dd4e652",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "PDC",
+          "license" : "Public Domain Per Creative Commons",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : "CC-PDDC"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/436?version=1.0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/436"
+      }
+    }, {
+      "name" : "Apache Commons FileUpload",
+      "description" : "The Apache Commons FileUpload component provides a simple yet flexible means of adding support for multipart file upload functionality to servlets and web applications.",
+      "author" : "Yahoo!",
+      "authorUrl" : "http://commons.apache.org/proper/commons-fileupload/",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "commons-fileupload",
+      "coordinate2" : "commons-fileupload",
+      "bugTrackerUrl" : "http://issues.apache.org/jira/browse/FILEUPLOAD",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "https://git-wip-us.apache.org/repos/asf?p=commons-fileupload.git",
+      "latestRelease" : "1.4",
+      "latestReleaseDate" : "2018-12-24T07:07:08.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "1.3.3",
+        "releaseDate" : "2017-06-09T23:00:03.000+00:00",
+        "sha1" : "04ff14d809195b711fd6bcc87e6777f886730ca1",
+        "sha2" : "e14ab7db47de124f5f9e9c0e03f4f6d2a007d83458a0ad67356b7bdd775c8cd0",
+        "bytecodeHash" : "df1b03220fdde6dd91282db159bf85e619547f53a25c8321336dbf6e370c8a03",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "APACHE20",
+          "license" : "Apache License 2.0 (Apache-2.0)",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : "Apache-2.0"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/115?version=1.3.3"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/115"
+      }
+    }, {
+      "name" : "Apache Commons IO",
+      "description" : "The Apache Commons IO library contains utility classes, stream implementations, file filters, file comparators, endian transformation classes, and much more.",
+      "author" : "",
+      "authorUrl" : "https://commons.apache.org/proper/commons-io/",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "commons-io",
+      "coordinate2" : "commons-io",
+      "bugTrackerUrl" : "https://issues.apache.org/jira/browse/IO",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "https://gitbox.apache.org/repos/asf?p=commons-io.git",
+      "latestRelease" : "2.11.0",
+      "latestReleaseDate" : "2021-07-10T01:43:00.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "2.2",
+        "releaseDate" : "2012-03-26T15:14:38.000+00:00",
+        "sha1" : "83b5b8a7ba1c08f9e8c8ff2373724e33d3c1e22a",
+        "sha2" : "675f60bd11a82d481736591fe4054c66471fa5463d45616652fd71585792ba87",
+        "bytecodeHash" : "c2e4c5afc96a5582da9a1d777480e4d83eaa5ab081a98cda61abf9d3dde52a4a",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "APACHE20",
+          "license" : "Apache License 2.0 (Apache-2.0)",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : "Apache-2.0"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/122?version=2.2"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/122"
+      }
+    }, {
+      "name" : "Apache Commons Logging",
+      "description" : "Apache Commons Logging is a thin adapter allowing configurable bridging to other, well known logging systems.",
+      "author" : null,
+      "authorUrl" : "http://commons.apache.org/proper/commons-logging/",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "commons-logging",
+      "coordinate2" : "commons-logging",
+      "bugTrackerUrl" : "http://issues.apache.org/jira/browse/LOGGING",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "http://svn.apache.org/repos/asf/commons/proper/logging/trunk",
+      "latestRelease" : "99.0-does-not-exist",
+      "latestReleaseDate" : "2020-10-11T09:04:21.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "1.1.1",
+        "releaseDate" : "2007-11-26T20:24:10.000+00:00",
+        "sha1" : "5043bfebc3db072ed80fbd362e7caf00e885d8ae",
+        "sha2" : "ce6f913cad1f0db3aad70186d65c5bc7ffcc9a99e3fe8e0b137312819f7c362f",
+        "bytecodeHash" : "9ab89bf54bd6de916439ba4fc13fd8b0c2fcec98269bfa90851b3382e7205c4f",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "APACHE20",
+          "license" : "Apache License 2.0 (Apache-2.0)",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : "Apache-2.0"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/102?version=1.1.1"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/102"
+      }
+    }, {
+      "name" : "Bean Validation API",
+      "description" : "Bean Validation API",
+      "author" : "Red Hat, Inc.",
+      "authorUrl" : "http://beanvalidation.org",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "javax.validation",
+      "coordinate2" : "validation-api",
+      "bugTrackerUrl" : "https://hibernate.atlassian.net/projects/BVAL/",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "https://github.com/beanvalidation/beanvalidation-api",
+      "latestRelease" : "2.0.1.Final",
+      "latestReleaseDate" : "2017-12-19T16:23:41.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "1.0.0.GA",
+        "releaseDate" : "2010-02-25T05:43:11.000+00:00",
+        "sha1" : "b6bd7f9d78f6fdaa3c37dae18a4bd298915f328e",
+        "sha2" : "e459f313ebc6db2483f8ceaad39af07086361b474fa92e40f442e8de5d9895dc",
+        "bytecodeHash" : "84151b565662d62dca5fa7b9b85150262f8d1bd529ab08536b0803079bf6342f",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "APACHE20",
+          "license" : "Apache License 2.0 (Apache-2.0)",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : "Apache-2.0"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/935?version=1.0.0.GA"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/935"
+      }
+    }, {
+      "name" : "BoneCP :: Core Library",
+      "description" : "Lightweight connection pool.",
+      "author" : null,
+      "authorUrl" : null,
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "com.jolbox",
+      "coordinate2" : "bonecp",
+      "bugTrackerUrl" : "https://launchpad.net/bonecp",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "http://github.com/wwadge/bonecp",
+      "latestRelease" : "0.8.0.RELEASE",
+      "latestReleaseDate" : "2013-10-23T11:48:44.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "0.8.0.RELEASE",
+        "releaseDate" : "2013-10-23T11:48:44.000+00:00",
+        "sha1" : "cec24ee9345b3678472bb1b8fdd6aa6b9428beb8",
+        "sha2" : "a53d5b5a7ba6433fc7c29e29664313e50ddb53e7381698c41d1091e3c3d081fb",
+        "bytecodeHash" : "82305c8e7792f2adec2cca52e307cbd6ce62e90ebbeae4065b3325a1f38e92af",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "APACHE20",
+          "license" : "Apache License 2.0 (Apache-2.0)",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : "Apache-2.0"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1406?version=0.8.0.RELEASE"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1406"
+      }
+    }, {
+      "name" : "Byte Buddy (without dependencies)",
+      "description" : "Byte Buddy is a Java library for creating Java classes at run time. This artifact is a build of Byte Buddy with all ASM dependencies repackaged into its own name space.",
+      "author" : null,
+      "authorUrl" : null,
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "net.bytebuddy",
+      "coordinate2" : "byte-buddy",
+      "bugTrackerUrl" : "https://github.com/raphw/byte-buddy/issues",
+      "codeRepoType" : null,
+      "codeRepoUrl" : null,
+      "latestRelease" : "1.12.23",
+      "latestReleaseDate" : "2023-02-05T09:55:07.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "1.8.0",
+        "releaseDate" : "2018-03-13T18:43:32.000+00:00",
+        "sha1" : "f7c50fcf1fab4fa3e148ecf6b329f01f733ed427",
+        "sha2" : "64a7e9b84bf7ad7b5e2ba7a3d711bbb30679f4a8a9a47e80408d18641681bcea",
+        "bytecodeHash" : "90dacac75e3ce108e3b8db624e46b8792727621927f8d301f34925cf104a5936",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "APACHE20",
+          "license" : "Apache License 2.0 (Apache-2.0)",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : "Apache-2.0"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/165914?version=1.8.0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/165914"
+      }
+    }, {
+      "name" : "ClassMate",
+      "description" : "Library for introspecting types with full generic information including resolving of field and method types.",
+      "author" : null,
+      "authorUrl" : "https://github.com/FasterXML/java-classmate",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "com.fasterxml",
+      "coordinate2" : "classmate",
+      "bugTrackerUrl" : null,
+      "codeRepoType" : null,
+      "codeRepoUrl" : "https://github.com/FasterXML/java-classmate",
+      "latestRelease" : "1.5.1",
+      "latestReleaseDate" : "2019-10-19T22:47:07.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "1.3.0",
+        "releaseDate" : "2015-09-16T22:09:07.000+00:00",
+        "sha1" : "183407ff982e9375f1a1c4a51ed0a9307c598fc7",
+        "sha2" : "11f836b0f3eba1544967317c052917c2987d78f0d1fb1e5a2bf93265174b9d77",
+        "bytecodeHash" : "5cbf9113cab13e384a141509b4d17cae9029ec67fb660f7312fc73b60562605e",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "APACHE20",
+          "license" : "Apache License 2.0 (Apache-2.0)",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : "Apache-2.0"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1354?version=1.3.0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1354"
+      }
+    }, {
+      "name" : "Commons DBCP",
+      "description" : "Commons Database Connection Pooling",
+      "author" : "",
+      "authorUrl" : "http://commons.apache.org/dbcp/",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "commons-dbcp",
+      "coordinate2" : "commons-dbcp",
+      "bugTrackerUrl" : "http://issues.apache.org/jira/browse/DBCP",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "http://svn.apache.org/viewvc/commons/proper/dbcp/trunk",
+      "latestRelease" : "1.4",
+      "latestReleaseDate" : "2010-02-07T17:56:26.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "1.2.2",
+        "releaseDate" : "2007-04-04T05:46:28.000+00:00",
+        "sha1" : "4fd4c6110e9bca3a655b717eb2e5920febb8403d",
+        "sha2" : "fd8813beda8e5a3dcc912b9f9944a9f33c6abf856125690092cbcb061039bdaa",
+        "bytecodeHash" : "9a9791744c8c10f5626ac8e82f3f68c1986acf7df2c51b46b3c8fa3d4433bbf1",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "APACHE20",
+          "license" : "Apache License 2.0 (Apache-2.0)",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : "Apache-2.0"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1660?version=1.2.2"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1660"
+      }
+    }, {
+      "name" : "Commons Pool",
+      "description" : "Commons Object Pooling Library",
+      "author" : "",
+      "authorUrl" : "http://commons.apache.org/pool/",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "commons-pool",
+      "coordinate2" : "commons-pool",
+      "bugTrackerUrl" : "http://issues.apache.org/jira/browse/POOL",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "http://svn.apache.org/viewvc/commons/proper/pool/trunk",
+      "latestRelease" : "1.6",
+      "latestReleaseDate" : "2012-01-09T15:33:05.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "1.5.3",
+        "releaseDate" : "2009-09-24T00:22:05.000+00:00",
+        "sha1" : "7ad440d63c6eea5e79f1737e264810c76258d042",
+        "sha2" : "8cb8be9724d96bcc523cd35ffaad2e1aa1262836b533a274057ced0550b4ad0f",
+        "bytecodeHash" : "0ba9c7c7c48e29ac7be017ac4990cf74644a891ac48fdeaf2446651cdd9247f5",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "APACHE20",
+          "license" : "Apache License 2.0 (Apache-2.0)",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : "Apache-2.0"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/942?version=1.5.3"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/942"
+      }
+    }, {
+      "name" : "dom4j",
+      "description" : "dom4j: the flexible XML framework for Java",
+      "author" : null,
+      "authorUrl" : null,
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "dom4j",
+      "coordinate2" : "dom4j",
+      "bugTrackerUrl" : "http://sourceforge.net/tracker/?group_id=16035",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/dom4j/dom4j/",
+      "latestRelease" : "1.6.1",
+      "latestReleaseDate" : "2006-02-10T12:33:18.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "1.6.1",
+        "releaseDate" : "2006-02-10T12:33:18.000+00:00",
+        "sha1" : "5d3ccc056b6f056dbf0dddfdf43894b9065a8f94",
+        "sha2" : "593552ffea3c5823c6602478b5002a7c525fd904a3c44f1abe4065c22edfac73",
+        "bytecodeHash" : "57cbd31fdfae92aedc52e252971a7c801242a82ee1191b8b977d5bb4f96b5cf2",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "BSD2",
+          "license" : "BSD 2-Clause \"Simplified\" or \"FreeBSD\" License (BSD-2-Clause)",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : "BSD-2-Clause"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/195?version=1.6.1"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/195"
+      }
+    }, {
+      "name" : "Guava: Google Core Libraries for Java",
+      "description" : "Guava is a suite of core and expanded libraries that include utility classes, Google's collections, I/O classes, and much more.",
+      "author" : "Google",
+      "authorUrl" : "https://github.com/google/guava",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "com.google.guava",
+      "coordinate2" : "guava",
+      "bugTrackerUrl" : "https://github.com/google/guava/issues",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "https://github.com/google/guava",
+      "latestRelease" : "31.1-jre",
+      "latestReleaseDate" : "2022-02-28T21:18:58.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "15.0",
+        "releaseDate" : "2013-09-06T19:52:49.000+00:00",
+        "sha1" : "ed727a8d9f247e2050281cb083f1c77b09dcb5cd",
+        "sha2" : "7a34575770eebc60a5476616e3676a6cb6f2975c78c415e2a6014ac724ba5783",
+        "bytecodeHash" : "0ad379a07ce31222436411587705c1cd84a44c69e6a8232e1d9751be21bc7ed7",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "APACHE20",
+          "license" : "Apache License 2.0 (Apache-2.0)",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : "Apache-2.0"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/107?version=15.0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/107"
+      }
+    }, {
+      "name" : "Hibernate Commons Annotations",
+      "description" : "Common reflection code used in support of annotation processing",
+      "author" : "Hibernate.org",
+      "authorUrl" : "http://hibernate.org",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "org.hibernate.common",
+      "coordinate2" : "hibernate-commons-annotations",
+      "bugTrackerUrl" : "https://hibernate.atlassian.net/browse/HCANN",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "http://github.com/hibernate/hibernate-commons-annotations",
+      "latestRelease" : "6.0.6.Final",
+      "latestReleaseDate" : "2023-01-26T15:39:39.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "5.0.3.Final",
+        "releaseDate" : "2018-03-26T14:05:58.000+00:00",
+        "sha1" : "4c4ac45f2a362dd4a629aa70103be35f20ebc9bc",
+        "sha2" : "e850312335d8f834b5a99a658dd445c4ec80828be9c539f6792485a38dfe4cb4",
+        "bytecodeHash" : "d5902f076d823b34eb4246f1ed0d72bcb9ebd68af314eb0b5e740739207a2602",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "LGPL21",
+          "license" : "GNU Library or \"Lesser\" General Public License version 2.1 (LGPL-2.1)",
+          "fromParentPom" : false,
+          "risk" : "HIGH",
+          "spdxId" : "LGPL-2.1-only"
+        }, {
+          "name" : "LGPL21LATER",
+          "license" : "GNU Lesser General Public License v2.1 or later",
+          "fromParentPom" : false,
+          "risk" : "HIGH",
+          "spdxId" : "LGPL-2.1-or-later"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/921?version=5.0.3.Final"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/921"
+      }
+    }, {
+      "name" : "hibernate-core - relocation",
+      "description" : "Hibernate's core ORM functionality",
+      "author" : "Hibernate.org",
+      "authorUrl" : "https://hibernate.org/orm",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "org.hibernate",
+      "coordinate2" : "hibernate-core",
+      "bugTrackerUrl" : "https://hibernate.atlassian.net/browse/HHH",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "https://github.com/hibernate/hibernate-orm",
+      "latestRelease" : "6.2.0.CR2",
+      "latestReleaseDate" : "2023-01-27T23:56:09.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "5.3.0.Final",
+        "releaseDate" : "2018-05-14T21:59:33.000+00:00",
+        "sha1" : "82a0659a3f8fdc47cb3430454cd5637e43e3bf09",
+        "sha2" : "420a5bb964a64241797422ee5f34c4c5bc50cc9ac7878f06a46e664ac2ac8677",
+        "bytecodeHash" : "1cd71aa70a6347b16fa473b319f92561a40358f2423fffce7671d1e05c4ef92d",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "LGPL21ONLY",
+          "license" : "GNU Lesser General Public License v2.1 only",
+          "fromParentPom" : false,
+          "risk" : "HIGH",
+          "spdxId" : "LGPL-2.1"
+        }, {
+          "name" : "LGPL30",
+          "license" : "GNU Library or \"Lesser\" General Public License version 3.0 (LGPL-3.0)",
+          "fromParentPom" : false,
+          "risk" : "HIGH",
+          "spdxId" : "LGPL-3.0-only"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/452?version=5.3.0.Final"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/452"
+      }
+    }, {
+      "name" : "HyperSQL Database",
+      "description" : "HSQLDB - Lightweight 100% Java SQL Database Engine",
+      "author" : null,
+      "authorUrl" : "http://hsqldb.org",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "org.hsqldb",
+      "coordinate2" : "hsqldb",
+      "bugTrackerUrl" : null,
+      "codeRepoType" : null,
+      "codeRepoUrl" : "http://sourceforge.net/p/hsqldb/svn/HEAD/tree/base/tags/2.7.1",
+      "latestRelease" : "2.7.1",
+      "latestReleaseDate" : "2022-10-22T14:19:43.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "2.3.4",
+        "releaseDate" : "2016-05-16T13:57:06.000+00:00",
+        "sha1" : "5564c057c826418f8e32de5815a14aee91781b37",
+        "sha2" : "05d9db29e690dc84d4d359690a55eddd7cbbcc245334bccc9cc0d380e969f837",
+        "bytecodeHash" : "fc1b897c4c510a24c5281c98694a82194d902e2735a0f1a6adf1817b3935e4d4",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "APACHE20",
+          "license" : "Apache License 2.0 (Apache-2.0)",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : "Apache-2.0"
+        }, {
+          "name" : "HSQLDB",
+          "license" : "HSQLDB - COPYRIGHTS AND LICENSES (based on BSD License)(HSQLDB)",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : null
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1730?version=2.3.4"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1730"
+      }
+    }, {
+      "name" : "Jackson-core",
+      "description" : "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
+      "author" : null,
+      "authorUrl" : "https://github.com/FasterXML/jackson-core",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "com.fasterxml.jackson.core",
+      "coordinate2" : "jackson-core",
+      "bugTrackerUrl" : null,
+      "codeRepoType" : null,
+      "codeRepoUrl" : "https://github.com/FasterXML/jackson-core",
+      "latestRelease" : "2.14.2",
+      "latestReleaseDate" : "2023-01-29T00:54:47.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "2.9.10",
+        "releaseDate" : "2019-09-21T17:52:54.000+00:00",
+        "sha1" : "66b715dec9dd8b0f39f3296e67e05913bf422d0c",
+        "sha2" : "65fe26d7554a4409652c86ee38f2e94bc42934326d88b3c78c61f66ff2222c53",
+        "bytecodeHash" : "434af34cb2d4fc5b0808b0e5a99be53b008f4f0042bec7355fe8b01cb1ac1f30",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "APACHE20",
+          "license" : "Apache License 2.0 (Apache-2.0)",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : "Apache-2.0"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/300?version=2.9.10"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/300"
+      }
+    }, {
+      "name" : "jandex",
+      "description" : "Parent POM for JBoss projects. Provides default project build configuration.",
+      "author" : "JBoss.org",
+      "authorUrl" : null,
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "org.jboss",
+      "coordinate2" : "jandex",
+      "bugTrackerUrl" : "https://issues.jboss.org/",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "http://github.com/jboss/jboss-parent-pom",
+      "latestRelease" : "3.0.5",
+      "latestReleaseDate" : "2022-12-02T15:03:25.960+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "2.0.3.Final",
+        "releaseDate" : "2016-08-02T18:42:04.000+00:00",
+        "sha1" : "bfc4d6257dbff7a33a357f0de116be6ff951d849",
+        "sha2" : "a3a65250cf954f102e74bab23df12540780878231195b585a7a86f4364a53727",
+        "bytecodeHash" : "839f93547e54b012492a0052ca08306b0aa03693e52d30b37de89a6b28b868ac",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "APACHE20",
+          "license" : "Apache License 2.0 (Apache-2.0)",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : "Apache-2.0"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1386?version=2.0.3.Final"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1386"
+      }
+    }, {
+      "name" : "Java Servlet API",
+      "description" : "Java.net - The Source for Java Technology Collaboration",
+      "author" : "Oracle",
+      "authorUrl" : "https://javaee.github.io/servlet-spec/",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "javax.servlet",
+      "coordinate2" : "javax.servlet-api",
+      "bugTrackerUrl" : "https://github.com/javaee/servlet-spec/issues",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "https://github.com/javaee/servlet-spec",
+      "latestRelease" : "4.0.1",
+      "latestReleaseDate" : "2018-04-20T07:19:20.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "3.1.0",
+        "releaseDate" : "2013-04-25T23:52:39.000+00:00",
+        "sha1" : "3cd63d075497751784b2fa84be59432f4905bf7c",
+        "sha2" : "af456b2dd41c4e82cf54f3e743bc678973d9fe35bd4d3071fa05c7e5333b8482",
+        "bytecodeHash" : "2e130c843bce5d659e05da9e4ebedb9538066896acfb572a3db035cebfe58df8",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "CDDL10",
+          "license" : "Common Development and Distribution License 1.0 (CDDL-1.0)",
+          "fromParentPom" : false,
+          "risk" : "MEDIUM",
+          "spdxId" : "CDDL-1.0"
+        }, {
+          "name" : "CECILL10",
+          "license" : "CeCILL Free Software License Agreement v1.0",
+          "fromParentPom" : false,
+          "risk" : "MEDIUM",
+          "spdxId" : "CECILL-1.0"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1000?version=3.1.0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1000"
+      }
+    }, {
+      "name" : "JavaBeans(TM) Activation Framework",
+      "description" : "The JavaBeans(TM) Activation Framework is used by the JavaMail(TM) API to manage MIME data",
+      "author" : null,
+      "authorUrl" : "http://java.sun.com/javase/technologies/desktop/javabeans/jaf/index.jsp",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "javax.activation",
+      "coordinate2" : "activation",
+      "bugTrackerUrl" : null,
+      "codeRepoType" : null,
+      "codeRepoUrl" : null,
+      "latestRelease" : "1.1.1",
+      "latestReleaseDate" : "2009-10-23T18:26:03.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "1.1.1",
+        "releaseDate" : "2009-10-23T18:26:03.000+00:00",
+        "sha1" : "485de3a253e23f645037828c07f1d7f1af40763a",
+        "sha2" : "ae475120e9fcd99b4b00b38329bd61cdc5eb754eee03fe66c01f50e137724f99",
+        "bytecodeHash" : "f64dac150d34061a0d11d6d3b62e144811753766ec9bd43edaee05b5f4241b91",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "CDDL10",
+          "license" : "Common Development and Distribution License 1.0 (CDDL-1.0)",
+          "fromParentPom" : false,
+          "risk" : "MEDIUM",
+          "spdxId" : "CDDL-1.0"
+        }, {
+          "name" : "CECILL10",
+          "license" : "CeCILL Free Software License Agreement v1.0",
+          "fromParentPom" : false,
+          "risk" : "MEDIUM",
+          "spdxId" : "CECILL-1.0"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/271?version=1.1.1"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/271"
+      }
+    }, {
+      "name" : "JavaServer Pages(TM) API",
+      "description" : "Java.net - The Source for Java Technology Collaboration",
+      "author" : "Oracle Corporation",
+      "authorUrl" : "https://javaee.github.io/javaee-jsp-api",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "javax.servlet.jsp",
+      "coordinate2" : "javax.servlet.jsp-api",
+      "bugTrackerUrl" : "https://github.com/javaee/javaee-jsp-api/issues/",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "https://github.com/javaee/javaee-jsp-api",
+      "latestRelease" : "2.3.3",
+      "latestReleaseDate" : "2018-08-01T07:22:17.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "2.3.1",
+        "releaseDate" : "2013-04-01T23:39:30.000+00:00",
+        "sha1" : "95c630902565feda8155eb32d46064ef348435fc",
+        "sha2" : "b1306f5cc721e25e290d2b244af7bfb870a7e072bd32f17350712d1626a74f4b",
+        "bytecodeHash" : "bb8fb38b35a3f1de00748fbb2e6a725cbd0866b6371f5b228143859cb7b10578",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "CDDL10",
+          "license" : "Common Development and Distribution License 1.0 (CDDL-1.0)",
+          "fromParentPom" : false,
+          "risk" : "MEDIUM",
+          "spdxId" : "CDDL-1.0"
+        }, {
+          "name" : "CECILL10",
+          "license" : "CeCILL Free Software License Agreement v1.0",
+          "fromParentPom" : false,
+          "risk" : "MEDIUM",
+          "spdxId" : "CECILL-1.0"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1459?version=2.3.1"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1459"
+      }
+    }, {
+      "name" : "Javassist",
+      "description" : "Javassist (JAVA programming ASSISTant) makes Java bytecode manipulation simple. It is a class library for editing bytecodes in Java.",
+      "author" : "The Javassist Project",
+      "authorUrl" : "http://www.javassist.org/",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "org.javassist",
+      "coordinate2" : "javassist",
+      "bugTrackerUrl" : "https://jira.jboss.org/jira/browse/JASSIST/",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "scm:git:git@github.com:jboss-javassist/javassist.git",
+      "latestRelease" : "3.29.2-GA",
+      "latestReleaseDate" : "2022-09-13T21:36:13.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "3.22.0-GA",
+        "releaseDate" : "2017-10-10T18:05:26.000+00:00",
+        "sha1" : "3e83394258ae2089be7219b971ec21a8288528ad",
+        "sha2" : "59531c00f3e3aa1ff48b3a8cf4ead47d203ab0e2fd9e0ad401f764e05947e252",
+        "bytecodeHash" : "fcfd22d91b726eccf8168c8b6b2e1eb27b919fd67d34b4a4fd5263800361c301",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "APACHE20",
+          "license" : "Apache License 2.0 (Apache-2.0)",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : "Apache-2.0"
+        }, {
+          "name" : "LGPL21",
+          "license" : "GNU Library or \"Lesser\" General Public License version 2.1 (LGPL-2.1)",
+          "fromParentPom" : false,
+          "risk" : "HIGH",
+          "spdxId" : "LGPL-2.1-only"
+        }, {
+          "name" : "MPL11",
+          "license" : "Mozilla Public License 1.1 (MPL-1.1)",
+          "fromParentPom" : false,
+          "risk" : "MEDIUM",
+          "spdxId" : "MPL-1.1"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/264?version=3.22.0-GA"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/264"
+      }
+    }, {
+      "name" : "javax.persistence-api",
+      "description" : "Java(TM) Persistence API",
+      "author" : null,
+      "authorUrl" : "https://github.com/javaee/jpa-spec",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "javax.persistence",
+      "coordinate2" : "javax.persistence-api",
+      "bugTrackerUrl" : "https://github.com/javaee/jpa-spec/issues",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "https://github.com/javaee/jpa-spec.git",
+      "latestRelease" : "2.2",
+      "latestReleaseDate" : "2017-08-21T14:59:17.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "2.2",
+        "releaseDate" : "2017-08-21T14:59:17.000+00:00",
+        "sha1" : "25665ac8c0b62f50e6488173233239120fc52c96",
+        "sha2" : "5578b71b37999a5eaed3fea0d14aa61c60c6ec6328256f2b63472f336318baf4",
+        "bytecodeHash" : "775dba1f7c8261f1efa54a6a62c34bbbaefb6fb7d8bf937ffe22491a49db5310",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "EDL",
+          "license" : "Eclipse Distribution License (EDL)",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : null
+        }, {
+          "name" : "EPL10",
+          "license" : "Eclipse Public License 1.0 (EPL-1.0)",
+          "fromParentPom" : false,
+          "risk" : "MEDIUM",
+          "spdxId" : "EPL-1.0"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1003914?version=2.2"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1003914"
+      }
+    }, {
+      "name" : "jaxb-api",
+      "description" : "JAXB (JSR 222) API",
+      "author" : "Oracle Corporation",
+      "authorUrl" : null,
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "javax.xml.bind",
+      "coordinate2" : "jaxb-api",
+      "bugTrackerUrl" : "https://github.com/javaee/jaxb-spec/issues",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "https://github.com/javaee/jaxb-spec.git",
+      "latestRelease" : "2.4.0-b180830.0359",
+      "latestReleaseDate" : "2018-08-30T11:00:20.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "2.3.0",
+        "releaseDate" : "2017-07-31T11:27:24.000+00:00",
+        "sha1" : "99f802e0cb3e953ba3d6e698795c4aeb98d37c48",
+        "sha2" : "883007989d373d19f352ba9792b25dec21dc7d0e205a710a93a3815101bb3d03",
+        "bytecodeHash" : "156462a204c284ec953d14579255f10969fd1b37287d1f4066d68ee77906d5b4",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "CDDL11",
+          "license" : "Common Development and Distribution License 1.1 (CDDL-1.1)",
+          "fromParentPom" : false,
+          "risk" : "MEDIUM",
+          "spdxId" : "CDDL-1.1"
+        }, {
+          "name" : "GPL20CE",
+          "license" : "GNU General Public License with Classpath Exceptions version 2.0",
+          "fromParentPom" : false,
+          "risk" : "HIGH",
+          "spdxId" : "GPL-2.0-with-classpath-exception"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/223?version=2.3.0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/223"
+      }
+    }, {
+      "name" : "JBoss Logging 3",
+      "description" : "The JBoss Logging Framework",
+      "author" : "JBoss.org",
+      "authorUrl" : "http://www.jboss.org",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "org.jboss.logging",
+      "coordinate2" : "jboss-logging",
+      "bugTrackerUrl" : "https://issues.redhat.com/",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "https://github.com/jboss-logging/jboss-logging",
+      "latestRelease" : "3.5.0.Final",
+      "latestReleaseDate" : "2022-04-28T16:10:16.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "3.3.2.Final",
+        "releaseDate" : "2018-02-14T21:23:38.000+00:00",
+        "sha1" : "3789d00e859632e6c6206adc0c71625559e6e3b0",
+        "sha2" : "cb914bfe888da7d9162e965ac8b0d6f28f2f32eca944a00fbbf6dd3cf1aacc13",
+        "bytecodeHash" : "d318fdb19a2c8f37b2a174a6c81e4b6029ff60a7f1be3080000fa0f1b691cf5e",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "APACHE20",
+          "license" : "Apache License 2.0 (Apache-2.0)",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : "Apache-2.0"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/892?version=3.3.2.Final"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/892"
+      }
+    }, {
+      "name" : "jboss-transaction-api_1.2_spec",
+      "description" : "Jakarta Transactions",
+      "author" : "Oracle, Inc.",
+      "authorUrl" : "https://projects.eclipse.org/projects/ee4j.jta",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "org.jboss.spec.javax.transaction",
+      "coordinate2" : "jboss-transaction-api_1.2_spec",
+      "bugTrackerUrl" : "https://issues.jboss.org/",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "https://github.com/jboss/jboss-jakarta-jta-api",
+      "latestRelease" : "2.0.0.CR1",
+      "latestReleaseDate" : "2019-08-28T16:53:40.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "1.0.1.Final",
+        "releaseDate" : "2016-04-25T12:56:36.000+00:00",
+        "sha1" : "4441f144a2a1f46ed48fcc6b476a4b6295e6d524",
+        "sha2" : "d35b340768f11e683045d0b3b8c2cf0554a0495a675ae8aab5680b34e5d2a69c",
+        "bytecodeHash" : "287f6ec9fc0d4dc7e7ee5efbb9198aadf10be1328629f724e5fcb5afa6daf21b",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "CDDL10",
+          "license" : "Common Development and Distribution License 1.0 (CDDL-1.0)",
+          "fromParentPom" : false,
+          "risk" : "MEDIUM",
+          "spdxId" : "CDDL-1.0"
+        }, {
+          "name" : "CECILL10",
+          "license" : "CeCILL Free Software License Agreement v1.0",
+          "fromParentPom" : false,
+          "risk" : "MEDIUM",
+          "spdxId" : "CECILL-1.0"
+        }, {
+          "name" : "GPL20CE",
+          "license" : "GNU General Public License with Classpath Exceptions version 2.0",
+          "fromParentPom" : false,
+          "risk" : "HIGH",
+          "spdxId" : "GPL-2.0-with-classpath-exception"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1352?version=1.0.1.Final"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1352"
+      }
+    }, {
+      "name" : "jstl",
+      "description" : null,
+      "author" : null,
+      "authorUrl" : null,
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "javax.servlet",
+      "coordinate2" : "jstl",
+      "bugTrackerUrl" : null,
+      "codeRepoType" : null,
+      "codeRepoUrl" : null,
+      "latestRelease" : "1.2",
+      "latestReleaseDate" : "2011-06-23T17:20:02.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "1.2",
+        "releaseDate" : "2011-06-23T17:20:02.000+00:00",
+        "sha1" : "74aca283cd4f4b4f3e425f5820cda58f44409547",
+        "sha2" : "c6273119354a41522877e663582041012b22f8204fe72bba337ed84c7e649b0a",
+        "bytecodeHash" : "25dbd70bff2ecde3fae1135f6ef2cd5ff880045b9a4c3865d3659fcb08c5417c",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "CDDL10",
+          "license" : "Common Development and Distribution License 1.0 (CDDL-1.0)",
+          "fromParentPom" : false,
+          "risk" : "MEDIUM",
+          "spdxId" : "CDDL-1.0"
+        }, {
+          "name" : "GPL20",
+          "license" : "GNU General Public License version 2.0 (GPL-2.0)",
+          "fromParentPom" : false,
+          "risk" : "HIGH",
+          "spdxId" : "GPL-2.0"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/882?version=1.2"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/882"
+      }
+    }, {
+      "name" : "Old JAXB Core",
+      "description" : "Old JAXB Core module. Contains sources required by XJC, JXC and Runtime modules with dependencies.",
+      "author" : "Oracle Corporation",
+      "authorUrl" : "https://eclipse-ee4j.github.io/jaxb-ri/",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "com.sun.xml.bind",
+      "coordinate2" : "jaxb-core",
+      "bugTrackerUrl" : "https://github.com/eclipse-ee4j/jaxb-ri/issues",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "https://github.com/eclipse-ee4j/jaxb-ri.git",
+      "latestRelease" : "4.0.2",
+      "latestReleaseDate" : "2023-01-27T06:36:53.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "2.3.0",
+        "releaseDate" : "2017-08-02T15:21:30.000+00:00",
+        "sha1" : "d044c784e41d026778693fb44a8026c1fd9a7506",
+        "sha2" : "33061af8d2a07379d452f8f0fddcbbf518428dfd3b83d9e2d479c1948020795b",
+        "bytecodeHash" : "5b8a48b95a0b3a0a4ac0dbe903a54b9db06539e5f5c446ee691e4a2748a5b1a0",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "CDDL10",
+          "license" : "Common Development and Distribution License 1.0 (CDDL-1.0)",
+          "fromParentPom" : true,
+          "risk" : "MEDIUM",
+          "spdxId" : "CDDL-1.0"
+        }, {
+          "name" : "CECILL10",
+          "license" : "CeCILL Free Software License Agreement v1.0",
+          "fromParentPom" : false,
+          "risk" : "MEDIUM",
+          "spdxId" : "CECILL-1.0"
+        }, {
+          "name" : "EDL",
+          "license" : "Eclipse Distribution License (EDL)",
+          "fromParentPom" : true,
+          "risk" : "LOW",
+          "spdxId" : null
+        }, {
+          "name" : "GPL30",
+          "license" : "GNU General Public License version 3.0 (GPL-3.0)",
+          "fromParentPom" : true,
+          "risk" : "HIGH",
+          "spdxId" : "GPL-3.0-only"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/275?version=2.3.0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/275"
+      }
+    }, {
+      "name" : "Old JAXB Runtime",
+      "description" : "Old JAXB Runtime module. Contains sources required for runtime processing.",
+      "author" : "Oracle Corporation",
+      "authorUrl" : "https://eclipse-ee4j.github.io/jaxb-ri/",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "com.sun.xml.bind",
+      "coordinate2" : "jaxb-impl",
+      "bugTrackerUrl" : "https://github.com/eclipse-ee4j/jaxb-ri/issues",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "https://github.com/eclipse-ee4j/jaxb-ri.git",
+      "latestRelease" : "4.0.2",
+      "latestReleaseDate" : "2023-01-27T06:36:48.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "2.3.0",
+        "releaseDate" : "2017-08-02T15:22:47.000+00:00",
+        "sha1" : "3a3c6a62719d967175b76b63925f1fb495f11437",
+        "sha2" : "edd691fc6ad7c7f3167e1a6833372367bedf6f4f2a4b8230df444a59bb3718b1",
+        "bytecodeHash" : "bdfb5bfb094863400a1c5bbd4a52b58d20098e70a074ed8cdeeabd37130594b8",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "CDDL10",
+          "license" : "Common Development and Distribution License 1.0 (CDDL-1.0)",
+          "fromParentPom" : true,
+          "risk" : "MEDIUM",
+          "spdxId" : "CDDL-1.0"
+        }, {
+          "name" : "CECILL10",
+          "license" : "CeCILL Free Software License Agreement v1.0",
+          "fromParentPom" : false,
+          "risk" : "MEDIUM",
+          "spdxId" : "CECILL-1.0"
+        }, {
+          "name" : "EDL",
+          "license" : "Eclipse Distribution License (EDL)",
+          "fromParentPom" : true,
+          "risk" : "LOW",
+          "spdxId" : null
+        }, {
+          "name" : "GPL30",
+          "license" : "GNU General Public License version 3.0 (GPL-3.0)",
+          "fromParentPom" : true,
+          "risk" : "HIGH",
+          "spdxId" : "GPL-3.0-only"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/101?version=2.3.0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/101"
+      }
+    }, {
+      "name" : "PostgreSQL JDBC Driver",
+      "description" : "PostgreSQL JDBC Driver Postgresql",
+      "author" : null,
+      "authorUrl" : "https://jdbc.postgresql.org",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "org.postgresql",
+      "coordinate2" : "postgresql",
+      "bugTrackerUrl" : "https://github.com/pgjdbc/pgjdbc/issues",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "https://github.com/pgjdbc/pgjdbc",
+      "latestRelease" : "42.5.3",
+      "latestReleaseDate" : "2023-02-03T15:18:12.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "9.2-1004-jdbc4",
+        "releaseDate" : "2013-11-01T13:41:23.000+00:00",
+        "sha1" : "77e7e7df83aa0e212b788ff43ab697d534389e59",
+        "sha2" : "fbeb868d999fe7c617ab23df8fd5ae1abdbba1be7c88a0a355a2577df08000df",
+        "bytecodeHash" : "1a17728762516ec5f505018be63af623558d3bad81b4e5c218371b62b7422d44",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "BSD3",
+          "license" : "BSD 3-Clause \"New\" or \"Revised\" License (BSD-3-Clause)",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : "BSD-3-Clause"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1656?version=9.2-1004-jdbc4"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1656"
+      }
+    }, {
+      "name" : "SLF4J API Module",
+      "description" : "The slf4j API",
+      "author" : null,
+      "authorUrl" : "http://www.slf4j.org",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "org.slf4j",
+      "coordinate2" : "slf4j-api",
+      "bugTrackerUrl" : null,
+      "codeRepoType" : null,
+      "codeRepoUrl" : "https://github.com/qos-ch/slf4j",
+      "latestRelease" : "2.0.6",
+      "latestReleaseDate" : "2022-12-12T19:13:49.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "1.7.13",
+        "releaseDate" : "2015-11-10T20:14:19.000+00:00",
+        "sha1" : "7fcf30c25b8f4a9379b9dad0d3f487b25272c026",
+        "sha2" : "20d68d0c2e4fb984ffc164852b8b68df49a2b8716076f576881bcef7649a0e35",
+        "bytecodeHash" : "8572c57c79a271c9fb09d1755823b2774633ec85039f425fa6f6ebeb285f0122",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "MIT",
+          "license" : "MIT license (MIT)",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : "MIT"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/134?version=1.7.13"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/134"
+      }
+    }, {
+      "name" : "Spring Beans",
+      "description" : "Spring Beans",
+      "author" : null,
+      "authorUrl" : "https://github.com/spring-projects/spring-framework",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "org.springframework",
+      "coordinate2" : "spring-beans",
+      "bugTrackerUrl" : "https://github.com/spring-projects/spring-framework/issues",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "https://github.com/spring-projects/spring-framework",
+      "latestRelease" : "6.0.4",
+      "latestReleaseDate" : "2023-01-11T12:28:12.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "4.2.3.RELEASE",
+        "releaseDate" : "2015-11-15T16:58:22.000+00:00",
+        "sha1" : "249921ead97248410ac04f854075f0a1c1a567e4",
+        "sha2" : "14c19e25db43157e7c94ea86ea754d22354527889eebc5451e58d25bb6a9da39",
+        "bytecodeHash" : "438f3362bc2f516256eadfea65de2276e3ed606e466b4af6ec235514e7557384",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "APACHE20",
+          "license" : "Apache License 2.0 (Apache-2.0)",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : "Apache-2.0"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1070?version=4.2.3.RELEASE"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1070"
+      }
+    }, {
+      "name" : "Spring Context",
+      "description" : "Spring Context",
+      "author" : null,
+      "authorUrl" : "https://github.com/spring-projects/spring-framework",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "org.springframework",
+      "coordinate2" : "spring-context",
+      "bugTrackerUrl" : "https://github.com/spring-projects/spring-framework/issues",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "https://github.com/spring-projects/spring-framework",
+      "latestRelease" : "6.0.4",
+      "latestReleaseDate" : "2023-01-11T12:28:12.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "4.2.3.RELEASE",
+        "releaseDate" : "2015-11-15T16:58:15.000+00:00",
+        "sha1" : "fb26a160d984eb9cbf01fbf38f4b17e15fdd50e1",
+        "sha2" : "1ea9380fee7cfecdbba979cf51384b310393dad2dff0748a89cedd1b1b426898",
+        "bytecodeHash" : "b63e477c00b49ff7c1ec2e6001191d3602019ac33e19145dd775f49e270ffa34",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "APACHE20",
+          "license" : "Apache License 2.0 (Apache-2.0)",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : "Apache-2.0"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/553?version=4.2.3.RELEASE"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/553"
+      }
+    }, {
+      "name" : "Spring Core",
+      "description" : "Spring Core",
+      "author" : null,
+      "authorUrl" : "https://github.com/spring-projects/spring-framework",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "org.springframework",
+      "coordinate2" : "spring-core",
+      "bugTrackerUrl" : "https://github.com/spring-projects/spring-framework/issues",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "https://github.com/spring-projects/spring-framework",
+      "latestRelease" : "6.0.4",
+      "latestReleaseDate" : "2023-01-11T12:28:12.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "4.2.3.RELEASE",
+        "releaseDate" : "2015-11-15T16:58:17.000+00:00",
+        "sha1" : "3ed00dad7a16b2a28df9348294f6a67151f43cf6",
+        "sha2" : "d8348c8ca50f0bc060f89417ae71d0841139b5a4f8eaff4c8b3926a85594d246",
+        "bytecodeHash" : "ba9bcc2194c7f1e83254bbeabb7261b83ca0e63b1aaa62933bec6afa27ba5c28",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "APACHE20",
+          "license" : "Apache License 2.0 (Apache-2.0)",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : "Apache-2.0"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/562?version=4.2.3.RELEASE"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/562"
+      }
+    }, {
+      "name" : "Spring Expression Language (SpEL)",
+      "description" : "Spring Expression Language (SpEL)",
+      "author" : null,
+      "authorUrl" : "https://github.com/spring-projects/spring-framework",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "org.springframework",
+      "coordinate2" : "spring-expression",
+      "bugTrackerUrl" : "https://github.com/spring-projects/spring-framework/issues",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "https://github.com/spring-projects/spring-framework",
+      "latestRelease" : "6.0.4",
+      "latestReleaseDate" : "2023-01-11T12:53:48.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "4.2.3.RELEASE",
+        "releaseDate" : "2015-11-15T16:58:17.000+00:00",
+        "sha1" : "67b064c726c276436387c7a183a49deda153a6cc",
+        "sha2" : "6d1489694869b5c4d5c2abfa3cde3567ea88bff2c09f37d107f1883a1a101e9c",
+        "bytecodeHash" : "eb48432789f6d547ca9c10da08615c0a587d200f1433a6956799a6ba2c8a27d4",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "APACHE20",
+          "license" : "Apache License 2.0 (Apache-2.0)",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : "Apache-2.0"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1074?version=4.2.3.RELEASE"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1074"
+      }
+    }, {
+      "name" : "Spring JDBC",
+      "description" : "Spring JDBC",
+      "author" : null,
+      "authorUrl" : "https://github.com/spring-projects/spring-framework",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "org.springframework",
+      "coordinate2" : "spring-jdbc",
+      "bugTrackerUrl" : "https://github.com/spring-projects/spring-framework/issues",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "https://github.com/spring-projects/spring-framework",
+      "latestRelease" : "6.0.4",
+      "latestReleaseDate" : "2023-01-11T12:53:47.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "4.2.3.RELEASE",
+        "releaseDate" : "2015-11-15T16:58:12.000+00:00",
+        "sha1" : "22f129baf3914b6bbaa842f9356c32d93ecf7bc1",
+        "sha2" : "771405e0fd5ce770176f669ad735c4fee42c233ce138925951d97fdad3389927",
+        "bytecodeHash" : "ce5d96bdee6550173e33a26600a334f4e8de7070e5ab2290dfb2169fcb61dabb",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "APACHE20",
+          "license" : "Apache License 2.0 (Apache-2.0)",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : "Apache-2.0"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1090?version=4.2.3.RELEASE"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1090"
+      }
+    }, {
+      "name" : "Spring Transaction",
+      "description" : "Spring Transaction",
+      "author" : null,
+      "authorUrl" : "https://github.com/spring-projects/spring-framework",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "org.springframework",
+      "coordinate2" : "spring-tx",
+      "bugTrackerUrl" : "https://github.com/spring-projects/spring-framework/issues",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "https://github.com/spring-projects/spring-framework",
+      "latestRelease" : "6.0.4",
+      "latestReleaseDate" : "2023-01-11T12:53:43.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "4.2.3.RELEASE",
+        "releaseDate" : "2015-11-15T16:58:16.000+00:00",
+        "sha1" : "617420d7e0351c334aa4495d6f30ad21c4c643a7",
+        "sha2" : "323858a89fa026928c8eacfc97380833652e45835e71ccab2d4e2513d70e95f0",
+        "bytecodeHash" : "66d136b8fce6f64a4039380959025a20b68ba645266f1a9e3ca5c840953852be",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "APACHE20",
+          "license" : "Apache License 2.0 (Apache-2.0)",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : "Apache-2.0"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1101?version=4.2.3.RELEASE"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1101"
+      }
+    }, {
+      "name" : "Spring Web MVC",
+      "description" : "Spring Web MVC",
+      "author" : null,
+      "authorUrl" : "https://github.com/spring-projects/spring-framework",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "org.springframework",
+      "coordinate2" : "spring-webmvc",
+      "bugTrackerUrl" : "https://github.com/spring-projects/spring-framework/issues",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "https://github.com/spring-projects/spring-framework",
+      "latestRelease" : "6.0.4",
+      "latestReleaseDate" : "2023-01-11T12:28:12.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "4.2.3.RELEASE",
+        "releaseDate" : "2015-11-15T16:58:14.000+00:00",
+        "sha1" : "46803840259c6d51c531e4f07f4213d758c6ee1d",
+        "sha2" : "4a6451451198b3d98830da91bba2f9f727c75f4a26e984892a0dda3cb069ce3c",
+        "bytecodeHash" : "4a34c01e234b34c259a2db35dc3158e654960763a35b4ad0b3187dff518540c0",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "APACHE20",
+          "license" : "Apache License 2.0 (Apache-2.0)",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : "Apache-2.0"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/949?version=4.2.3.RELEASE"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/949"
+      }
+    }, {
+      "name" : "Spring Web",
+      "description" : "Spring Web",
+      "author" : null,
+      "authorUrl" : "https://github.com/spring-projects/spring-framework",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "org.springframework",
+      "coordinate2" : "spring-web",
+      "bugTrackerUrl" : "https://github.com/spring-projects/spring-framework/issues",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "https://github.com/spring-projects/spring-framework",
+      "latestRelease" : "6.0.4",
+      "latestReleaseDate" : "2023-01-11T12:28:13.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "4.2.3.RELEASE",
+        "releaseDate" : "2015-11-15T16:58:14.000+00:00",
+        "sha1" : "98eea3fbe01450fff18aeb7e6003f80a879a049e",
+        "sha2" : "f0e9b13adbb5f126bf4019901b2e5f5087dd90148edfc2f607c9b6a7db208ed8",
+        "bytecodeHash" : "97242caaaab9d805585cb7e36b93a6205a949e83371d77bfb4592e45587540b9",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "APACHE20",
+          "license" : "Apache License 2.0 (Apache-2.0)",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : "Apache-2.0"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1104?version=4.2.3.RELEASE"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1104"
+      }
+    }, {
+      "name" : "spring-aop",
+      "description" : "Spring AOP",
+      "author" : null,
+      "authorUrl" : null,
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "org.springframework",
+      "coordinate2" : "spring-aop",
+      "bugTrackerUrl" : "https://github.com/spring-projects/spring-framework/issues",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "https://github.com/spring-projects/spring-framework",
+      "latestRelease" : "6.0.4",
+      "latestReleaseDate" : "2023-01-11T12:28:12.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "4.2.3.RELEASE",
+        "releaseDate" : "2015-11-15T16:58:16.000+00:00",
+        "sha1" : "6384a57a024df03bfcb1eeccd3d820da98125b92",
+        "sha2" : "c0e133b451d81fa3774073fc4a1a1a77758a2e95ad6cfbd94c8731af1b30f8e4",
+        "bytecodeHash" : "2f2f21fbb4f61a7846ed6f06abda26bc82a4bef58184fcef7d339d2e32dfd6f9",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "APACHE20",
+          "license" : "Apache License 2.0 (Apache-2.0)",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : "Apache-2.0"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1079?version=4.2.3.RELEASE"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1079"
+      }
+    }, {
+      "name" : "spring-security-config",
+      "description" : "Spring Security",
+      "author" : "Pivotal Software, Inc.",
+      "authorUrl" : "https://spring.io/projects/spring-security",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "org.springframework.security",
+      "coordinate2" : "spring-security-config",
+      "bugTrackerUrl" : "https://github.com/spring-projects/spring-security/issues",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "https://github.com/spring-projects/spring-security",
+      "latestRelease" : "6.1.0-M1",
+      "latestReleaseDate" : "2023-01-16T16:33:23.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "4.0.3.RELEASE",
+        "releaseDate" : "2015-10-30T19:58:03.000+00:00",
+        "sha1" : "31c0a4d0159f1b668d9512f57fb46aac29949b08",
+        "sha2" : "d9585ee4ae59185b998ef406de95992f4d2fad81013b93daa063a3165d68bc56",
+        "bytecodeHash" : "97d082486a5f8cb115c1fe1c2b79b68abc0634a47e1ce52e755f6bc575829a00",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "APACHE20",
+          "license" : "Apache License 2.0 (Apache-2.0)",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : "Apache-2.0"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1417?version=4.0.3.RELEASE"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1417"
+      }
+    }, {
+      "name" : "spring-security-core",
+      "description" : "Spring Security",
+      "author" : "Pivotal Software, Inc.",
+      "authorUrl" : "https://spring.io/projects/spring-security",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "org.springframework.security",
+      "coordinate2" : "spring-security-core",
+      "bugTrackerUrl" : "https://github.com/spring-projects/spring-security/issues",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "https://github.com/spring-projects/spring-security",
+      "latestRelease" : "6.1.0-M1",
+      "latestReleaseDate" : "2023-01-16T16:33:23.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "4.0.3.RELEASE",
+        "releaseDate" : "2015-10-30T19:58:04.000+00:00",
+        "sha1" : "9f420c5742ad063970c5d33f60680a1cee777aa5",
+        "sha2" : "b3f8a0997eb6db1b03271647a8969a7ea5bfc50dac031cbaedb8a65df1e58abd",
+        "bytecodeHash" : "2d399396e181d6a8b7c46d4d8aea0fef6820bb7e7e5afb35fda7ac883b21c2c9",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "APACHE20",
+          "license" : "Apache License 2.0 (Apache-2.0)",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : "Apache-2.0"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/851?version=4.0.3.RELEASE"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/851"
+      }
+    }, {
+      "name" : "spring-security-web",
+      "description" : "Spring Security",
+      "author" : "Pivotal Software, Inc.",
+      "authorUrl" : "https://spring.io/projects/spring-security",
+      "language" : "JAVA",
+      "coordinateType" : "MAVEN",
+      "coordinate1" : "org.springframework.security",
+      "coordinate2" : "spring-security-web",
+      "bugTrackerUrl" : "https://github.com/spring-projects/spring-security/issues",
+      "codeRepoType" : null,
+      "codeRepoUrl" : "https://github.com/spring-projects/spring-security",
+      "latestRelease" : "6.1.0-M1",
+      "latestReleaseDate" : "2023-01-16T16:33:23.000+00:00",
+      "recommendedVersion" : null,
+      "versions" : [ {
+        "version" : "4.0.3.RELEASE",
+        "releaseDate" : "2015-10-30T19:58:10.000+00:00",
+        "sha1" : "5f0233d94ca53ac8710780b43791f633f970480a",
+        "sha2" : "6f1c905f6a2dd512575397ae1931f714847ded08b2e94c50ca5fdd52ccaaae3e",
+        "bytecodeHash" : "af296a78969e71aa9b12a9f455b8d4c00506fcfd780c726c2e1f491f683a3c47",
+        "platform" : "",
+        "licenses" : [ {
+          "name" : "APACHE20",
+          "license" : "Apache License 2.0 (Apache-2.0)",
+          "fromParentPom" : false,
+          "risk" : "LOW",
+          "spdxId" : "Apache-2.0"
+        } ],
+        "_links" : {
+          "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1368?version=4.0.3.RELEASE"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/libraries/1368"
+      }
+    } ],
+    "vulnerabilities" : [ {
+      "disclosureDate" : "2015-02-26T16:00:00.000+00:00",
+      "cve" : "2015-0254",
+      "title" : "XML External Entity (XXE) Through An XSLT Extension",
+      "overview" : "Apache Standard Taglibs before 1.2.3 allows remote attackers to execute arbitrary code or conduct external XML entity (XXE) attacks via a crafted XSLT extension in a (1) <x:parse> or (2) <x:transform> JSTL XML tag.",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "XML Injection" ],
+      "cvssScore" : 7.5,
+      "cvss3Score" : 8.3,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "",
+          "versionRange" : "1.0-1.2",
+          "fixText" : "",
+          "patch" : ""
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/26/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/1525"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2016-07-07T00:00:00.000+00:00",
+      "cve" : "2016-5007",
+      "title" : "MVC Path Matching Inconsistency In URL-based Authorization",
+      "overview" : "Spring security and spring framwork has a flaw that leads to MVC path matching inconsistency. The flaw exists because it uses pattern matching mechanism to perform authorization and to map requests to controllers. Due to the strictness of the mechanism, recognition and protection of certain MVC paths would fail.",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "Authorization", "Other" ],
+      "cvssScore" : 5.0,
+      "cvss3Score" : 7.5,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "4.1.1.RELEASE",
+          "versionRange" : "3.1.0.RELEASE-4.1.0.RELEASE",
+          "fixText" : "",
+          "patch" : "https://github.com/spring-projects/spring-security/commit/e4c13e"
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/40/versions/0"
+        }
+      }, {
+        "details" : [ {
+          "updateToVersion" : "4.1.1.RELEASE",
+          "versionRange" : "3.2.0.RELEASE-4.1.0.RELEASE",
+          "fixText" : null,
+          "patch" : null
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/42/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/2527"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2016-08-03T00:00:00.000+00:00",
+      "cve" : null,
+      "title" : "Breach Attack Using CSRF Tokens",
+      "overview" : "spring-security-web is vulnerable to breach attacks. The vulnerability exists because it returns the same CSRF token to the browser instead of returning a token  calculated using XOR of an internal CSRF token and a random per secret request. The attack is possible if CSRF protection in Spring is turned on and HTTP compression is used in web server.",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "Other" ],
+      "cvssScore" : 4.3,
+      "cvss3Score" : 4.3,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "5.0.0.RELEASE",
+          "versionRange" : "3.2.0.RELEASE-4.2.18.RELEASE",
+          "fixText" : "",
+          "patch" : "https://github.com/rh-id/spring-security/commit/44539446505f2ec44d21229036f988ddcf317ba4"
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/42/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/2739"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2016-01-19T00:00:00.000+00:00",
+      "cve" : null,
+      "title" : "Timing Attack Due To Password Comparison",
+      "overview" : "spring-security-core is vulnerable to timing attacks. The attacks are possible because it does not use a constant time to verify passwords with different lengths, thereby revealing the time taken to compare the passwords.",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "Cryptography", "Information Disclosure" ],
+      "cvssScore" : 5.0,
+      "cvss3Score" : 5.3,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "4.2.0.RELEASE",
+          "versionRange" : "3.0.6.RELEASE-4.1.3.RELEASE",
+          "fixText" : "",
+          "patch" : "https://github.com/spring-projects/spring-security/commit/a98389fa98609c5af0a48b27d806bb45af28b06b"
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/41/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/2784"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2016-12-08T00:00:00.000+00:00",
+      "cve" : "2016-9879",
+      "title" : "Security Constraint Bypass",
+      "overview" : "Spring security web is vulnerable to security constraint bypass. It does not consider URL path parameters when processing security constraints. By adding an URL path parameter with an encoded `/` to a request, an attacker is able to bypass a security constraint. The root cause of this issue is a lack of clarity regarding the handling of path parameters in the Servlet Specification. Some Servlet containers include path parameters in the value returned for `getPathInfo()` and some do not. Spring Security uses the value returned by `getPathInfo()` as part of the process of mapping requests to security constraints. The unexpected presence of path parameters can cause a constraint to be bypassed.",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "Other" ],
+      "cvssScore" : 5.0,
+      "cvss3Score" : 7.5,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "4.1.4.RELEASE",
+          "versionRange" : "4.0.0.RELEASE-4.1.3.RELEASE",
+          "fixText" : "",
+          "patch" : "https://github.com/spring-projects/spring-security/commit/ed2ae21074b7850d386371b2ab9e29268ef2f0c0"
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/42/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/3178"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2016-12-21T00:00:00.000+00:00",
+      "cve" : "2016-9878",
+      "title" : "Directory Traversal",
+      "overview" : "spring-webmvc is vulnerable to directory traversal. Paths provided to the ResourceServlet are not properly sanitized, allowing directory traversal attacks.",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "File I/O", "Other" ],
+      "cvssScore" : 5.0,
+      "cvss3Score" : 7.5,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "4.2.9",
+          "versionRange" : "4.2.0.RELEASE-4.2.8.RELEASE",
+          "fixText" : "",
+          "patch" : "https://github.com/spring-projects/spring-framework/commit/43bf008fbcd0d7945e2fcd5e30039bc4d74c7a98"
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/37/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/3179"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2017-08-13T00:00:00.000+00:00",
+      "cve" : null,
+      "title" : "XML External Entity (XXE) Injection Through Insecure Defaults",
+      "overview" : "dom4j is vulnerable to XML External Entity Injection. The library by default uses the `SAXReader` to parse documents without using the `setFeature` function in it to disable doctype and entities, allowing a malicious user to pass a document to execute an XML Injection attack.",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "XML Injection" ],
+      "cvssScore" : 6.8,
+      "cvss3Score" : 6.5,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "",
+          "versionRange" : "1.1-1.6.1",
+          "fixText" : "Apply the following fix",
+          "patch" : ""
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/11/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/4943"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2015-11-13T00:00:00.000+00:00",
+      "cve" : null,
+      "title" : "Remote Code Execution (RCE) Via Java Object Deserialization",
+      "overview" : "commons-io is vulnerable to remote code execution (RCE) attacks. These attacks are possible because the library doesn't restrict the classes which can be accepted when deserializing a binary.",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "Other" ],
+      "cvssScore" : 5.1,
+      "cvss3Score" : 5.6,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "2.5",
+          "versionRange" : "1.0-2.4",
+          "fixText" : "",
+          "patch" : "https://github.com/apache/commons-io/compare/a2db8ea72a65d862ff8250e165f6789e9f0df1cb...c65777acf65ee83967ca394adb6619330be9790f"
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/3/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/5295"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2017-10-27T00:00:00.000+00:00",
+      "cve" : "2018-1199",
+      "title" : "Security Constraint Bypass",
+      "overview" : "spring-security-web and spring-web are vulnerable to security bypass with static resources. Spring uses the output of `getPathInfo()` when mapping security constraints and requests. It is not standardized whether the path parameters should be included in the value from `getPathInfo()`. Using this knowledge, attackers can bypass security constraints by using encoded characters.",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "Other" ],
+      "cvssScore" : 5.0,
+      "cvss3Score" : 5.3,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "4.3.13.RELEASE",
+          "versionRange" : "3.1.0.RELEASE-4.3.12.RELEASE",
+          "fixText" : "",
+          "patch" : "https://github.com/spring-projects/spring-framework/commit/9470719cdb9e827db1fe6ce088c77ca817a9e0d7"
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/37/versions/0"
+        }
+      }, {
+        "details" : [ {
+          "updateToVersion" : "4.1.4.RELEASE",
+          "versionRange" : "3.1.0.RELEASE-4.0.4.RELEASE",
+          "fixText" : "",
+          "patch" : ""
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/42/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/5771"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2018-04-05T00:00:00.000+00:00",
+      "cve" : "2018-1271",
+      "title" : "Directory Traversal",
+      "overview" : "spring-webmvc is vulnerable to directory traversal attack. The vulnerability exists due to the improper sanitization of the path values which allows valid Windows files to be served as static resources. This vulnerability only affects spring-webmvc running on Windows which allows serving files with the `file:` locator, does not use Spring Security with versions patched for `CVE-2018-1199`, and use Tomcat/WildFly as the server.",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "File I/O", "Information Disclosure" ],
+      "cvssScore" : 4.3,
+      "cvss3Score" : 5.9,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "4.3.15.RELEASE",
+          "versionRange" : "4.0.0.RELEASE-4.3.14.RELEASE",
+          "fixText" : "To mitigate this issue, apply fix patch.",
+          "patch" : "https://github.com/spring-projects/spring-framework/commit/b9ebdaaf3710db473a2e1fec8641c316483a22aa"
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/37/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/6055"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2018-03-23T00:00:00.000+00:00",
+      "cve" : "2018-1272",
+      "title" : "Privilege Escalation Through Multipart Content Pollution",
+      "overview" : "spring-core is vulnerable to multipart content pollution. The application uses an insecure number generator to generate the multipart boundary parameter value, allowing a malicious user to make a informed guess the multipart boundary parameter value. A malicious user can potentially perform a privilege escalation attack by sending tampered requests to a server that the user does not have sufficient access control to.",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "Authorization", "Other" ],
+      "cvssScore" : 6.0,
+      "cvss3Score" : 7.5,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "4.3.15.RELEASE",
+          "versionRange" : "4.2.0.RELEASE-4.3.14.RELEASE",
+          "fixText" : "",
+          "patch" : "https://github.com/spring-projects/spring-framework/commit/e02ff3a0da50744b0980d5d665fd242eedea7675"
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/33/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/6056"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2018-04-26T00:00:00.000+00:00",
+      "cve" : "2018-10237",
+      "title" : "Denial Of Service (DoS)",
+      "overview" : "Guava is vulnerable to denial of service (DoS). The attacks are possible because `AtomicDoubleArray` and `CompoundOrdering` classes perform memory allocations without checking user provided data and its size.",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "Denial of Service" ],
+      "cvssScore" : 4.3,
+      "cvss3Score" : 5.9,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "24.1.1-jre",
+          "versionRange" : "11.0-rc1-24.1-jre",
+          "fixText" : "",
+          "patch" : "https://github.com/google/guava/commit/f89ece5721b2f637fe754937ff1f3c86d80bb196"
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/12/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/6202"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2018-05-18T00:00:00.000+00:00",
+      "cve" : "2018-11039",
+      "title" : "Cross-Site Tracing (XST)",
+      "overview" : "spring-web is vulnerable to cross-site tracing (XST) attacks. The vulnerability exists as `HiddenHttpMethodFilter` allows web applications to change existing HTTP request method to any HTTP method, causing applications with existing cross-site scripting (XSS) vulnerability to be vulnerable to XST.",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "Other" ],
+      "cvssScore" : 4.3,
+      "cvss3Score" : 5.9,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "4.3.18.RELEASE",
+          "versionRange" : "3.0.0.RELEASE-4.2.9.RELEASE",
+          "fixText" : "",
+          "patch" : "https://github.com/spring-projects/spring-framework/commit/323ccf99e575343f63d56e229c25c35c170b7ec1"
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/38/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/6806"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2018-06-07T00:00:00.000+00:00",
+      "cve" : "2018-11040",
+      "title" : "Cross-Domain Request Through Insecure JSONP Defaults",
+      "overview" : "spring-webmvc is vulnerable to cross-domain requests. The vulnerability exists as JSONP is enabled through the `jsonp` and `callback` JSONP parameters in MappingJackson2JsonView by default.",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "Other" ],
+      "cvssScore" : 4.3,
+      "cvss3Score" : 7.5,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "4.3.18.RELEASE",
+          "versionRange" : "4.1.0.RELEASE-4.2.9.RELEASE",
+          "fixText" : "",
+          "patch" : "https://github.com/spring-projects/spring-framework/commit/874859493bbda59739c38c7e52eb3625f247b93a"
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/37/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/6807"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2018-07-01T00:00:00.000+00:00",
+      "cve" : "2018-1000632",
+      "title" : "XML External Entity (XXE)",
+      "overview" : "dom4j is vulnerable to XML External Entity (XXE) attacks. The library does not properly validate the attributes that can be inserted by the user, allowing a malicious user to conduct an XXE attack.",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "XML Injection" ],
+      "cvssScore" : 5.0,
+      "cvss3Score" : 7.5,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "",
+          "versionRange" : "1.1-1.6.1",
+          "fixText" : "Apply the following fix",
+          "patch" : ""
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/11/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/7341"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2018-08-12T00:00:00.000+00:00",
+      "cve" : "2018-10936",
+      "title" : "Man-in-the-Middle (MitM)",
+      "overview" : "postgresql is vulnerable to man-in-the-middle. Hostname verification for non-default SSL factories are not performed if the hostname verifier is not provided to the driver. This allows an attacker to masquerade as a trusted server by providing a certificate signed by a trusted CA.",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "Man-in-the-middle" ],
+      "cvssScore" : 6.8,
+      "cvss3Score" : 8.1,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "42.2.5.jre6",
+          "versionRange" : "9.2-42.1.4",
+          "fixText" : "",
+          "patch" : ""
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/29/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/7473"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2018-10-04T00:00:00.000+00:00",
+      "cve" : "2018-15756",
+      "title" : "Denial Of Service (DoS)",
+      "overview" : "spring-web is vulnerable to denial of service (DoS). A malicious user can pass a HTTP request containing a header with overlapping ranges, leading to an error which would crash the service.",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "Denial of Service" ],
+      "cvssScore" : 5.0,
+      "cvss3Score" : 7.5,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "4.3.20",
+          "versionRange" : "4.2.0.RELEASE-4.2.9.RELEASE",
+          "fixText" : "",
+          "patch" : "https://github.com/spring-projects/spring-framework/commit/c7bd3b844012a9bb214ca7203f110979c0890c00"
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/37/versions/0"
+        }
+      }, {
+        "details" : [ {
+          "updateToVersion" : "4.3.20.RELEASE",
+          "versionRange" : "4.2.0.RELEASE-4.2.9.RELEASE",
+          "fixText" : null,
+          "patch" : null
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/38/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/7620"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2019-03-10T00:00:00.000+00:00",
+      "cve" : "2019-3795",
+      "title" : "Insecure Randomness",
+      "overview" : "spring-security-core is vulnerable to insecure randomness. The vulnerability exists because it does not use a secure way of generating randomness in `SecureRandomFactoryBean#setSeed` to configure a SecureRandom instance.",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "Cryptography", "Other" ],
+      "cvssScore" : 5.0,
+      "cvss3Score" : 5.3,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "4.2.12.RELEASE",
+          "versionRange" : "3.0.8.RELEASE-4.2.11",
+          "fixText" : "",
+          "patch" : "https://github.com/spring-projects/spring-security/commit/6f02f690ac65ccf99d8df47ac3d730a68f87c569"
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/41/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/13602"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2017-04-26T00:00:00.000+00:00",
+      "cve" : null,
+      "title" : "Host Header Attack",
+      "overview" : "spring-security-web is vulnerable to Host header attacks. Lack of validation and whitelisting on the host header value could result in successful host header attacks that potentially leads to cache poisoning or phishing attacks, depending on the behavior of the web application.",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "Other", "Phishing attack" ],
+      "cvssScore" : 6.4,
+      "cvss3Score" : 6.5,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "4.2.17.RELEASE",
+          "versionRange" : "3.0.0.RELEASE-4.2.16.RELEASE",
+          "fixText" : "",
+          "patch" : "https://github.com/spring-projects/spring-security/commit/e4e73631964de2ea7c72a1d3bdfef7b69d841aef"
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/42/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/20558"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2016-04-06T00:00:00.000+00:00",
+      "cve" : "2016-1000027",
+      "title" : "Remote Code Execution (RCE)",
+      "overview" : "spring-web is vulnerable to remote code execution (RCE). When it is used with external endpoints regardless of endpoints being authenticated or not, the function `HttpInvokerServiceExporter: readRemoteInvocation` allows deserialization of untrusted object if the endpoints are exposed to untrusted clients. It depends on the implementation within a product to mandate an authentication and to protect an application from an authenticated deserialization. The vendor has claimed the behavior to be as intended, but has deprecated the vulnerable Sun's JDK HTTP server classes in version 6.0.0.\n",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "Other" ],
+      "cvssScore" : 7.5,
+      "cvss3Score" : 9.8,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "6.0.0",
+          "versionRange" : "4.0.0.M1-5.3.25",
+          "fixText" : "",
+          "patch" : "https://github.com/spring-projects/spring-framework/commit/2b051b8b321768a4cfef83077db65c6328ffd60f#diff-5b4db0e368d81fcb05337a6147fbc73de0b536109a58cb50acf7e0f40dd61243"
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/38/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/22252"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2020-04-11T00:00:00.000+00:00",
+      "cve" : "2020-10683",
+      "title" : "XML External Entity",
+      "overview" : "dom4j is vulnerable to XML external entity attacks. The default `SaxReader()` does not disable external DTDs and External Entities by default, allowing an attacker to access local or internal network resources, or perform requests on behalf of the server.",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "Injection Vulnerabilities", "XML Injection" ],
+      "cvssScore" : 7.5,
+      "cvss3Score" : 9.8,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "",
+          "versionRange" : "1.1-1.6.1",
+          "fixText" : "There is no fix version. It is recommended to use an alternative package. ",
+          "patch" : ""
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/11/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/25055"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2020-05-07T00:00:00.000+00:00",
+      "cve" : "2020-5408",
+      "title" : "Information Disclosure",
+      "overview" : "spring-security-core is vulnerable to Information Disclosure. The vulnerability exists as it uses a fixed null initialization vector with CBC Mode for the queryable text encryptor rather than handling the `null` value passed to the function `BCryptPasswordEncoder.encode()`, thereby allowing a user with access to encrypted data to trigger a dictionary attack to disclose the plaintext.",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "Information Disclosure" ],
+      "cvssScore" : 4.0,
+      "cvss3Score" : 6.5,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "4.2.16.RELEASE",
+          "versionRange" : "3.1.0.RELEASE-4.2.15.RELEASE",
+          "fixText" : "",
+          "patch" : "https://github.com/spring-projects/spring-security/commit/3c81e122bdfcd0803fb6331a8625624cae249231"
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/41/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/25419"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2020-06-01T00:00:00.000+00:00",
+      "cve" : "2020-13692",
+      "title" : "XML External Entity (XXE)",
+      "overview" : "PostgreSQL JDBC Driver is vulnerable to XML external entity attacks. External DTDs are not disabled by default, allowing an attacker to perform XXE attacks and perform request on behalf of the server or retrieve system files via a malicious XML document.",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "Injection Vulnerabilities", "XML Injection" ],
+      "cvssScore" : 6.8,
+      "cvss3Score" : 7.7,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "42.2.13",
+          "versionRange" : "9.2-9.2-1004",
+          "fixText" : "",
+          "patch" : "https://github.com/pgjdbc/pgjdbc/commit/14b62aca4764d496813f55a43d050b017e01eb65"
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/29/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/25614"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2020-08-17T13:28:00.000+00:00",
+      "cve" : "2019-14900",
+      "title" : "SQL Injection",
+      "overview" : "hibernate-core is vulnerable to SQL injection. The vulnerability exists in Hibernate ORM.",
+      "language" : "OS",
+      "vulnerabilityTypes" : [ "SQL Injection" ],
+      "cvssScore" : 4.0,
+      "cvss3Score" : 6.5,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "5.3.18.Final",
+          "versionRange" : "3.6.0.Beta1-5.3.17.Final",
+          "fixText" : "",
+          "patch" : "https://github.com/hibernate/hibernate-orm/commit/3f3c1ab50604ab9ba99e25d2016fb85f3ba9dcd4"
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/14/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/26340"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2020-09-17T00:00:00.000+00:00",
+      "cve" : "2020-5421",
+      "title" : "Reflected File Download (RFD) Attack",
+      "overview" : "spring-web is vulnerable to Reflected File Download (RFD) attack. An incomplete fix of CVE-2015-5211 allows an attacker to bypass the protection against RFD attack via the `jsessionid` path parameter.\n\n",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "Other" ],
+      "cvssScore" : 3.6,
+      "cvss3Score" : 6.5,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "4.3.29.RELEASE",
+          "versionRange" : "3.2.0.RELEASE-4.2.9.RELEASE",
+          "fixText" : "",
+          "patch" : ""
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/38/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/26780"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2020-08-27T00:00:00.000+00:00",
+      "cve" : "2020-8908",
+      "title" : "Information Disclosure",
+      "overview" : "guava is vulnerable to information disclosure. A folder with insecure permissions is created by the function `com.google.common.io.Files.createTempDir`. A local user will be able to steal secrets stored in this directory.",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "Information Disclosure" ],
+      "cvssScore" : 2.1,
+      "cvss3Score" : 3.3,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "30.0-android",
+          "versionRange" : "10.0-rc1-29.0-jre",
+          "fixText" : "",
+          "patch" : "https://github.com/google/guava/commit/fec0dbc4634006a6162cfd4d0d09c962073ddf40"
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/12/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/27672"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2020-11-23T13:35:00.000+00:00",
+      "cve" : "2020-25638",
+      "title" : "SQL Injection",
+      "overview" : "hibernate-core is vulnerable to SQL injection. The vulnerability exists when both hibernate.use_sql_comments and JPQL String literals are used which allows an attacker to inject arbitrary sql queries.",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "SQL Injection" ],
+      "cvssScore" : 5.8,
+      "cvss3Score" : 7.4,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "5.4.24.Final",
+          "versionRange" : "3.3.0.CR1-5.4.23.Final",
+          "fixText" : "",
+          "patch" : "https://github.com/hibernate/hibernate-orm/commit/36ebf7d3836e83e99f2a91777b5389e1daf1f2b7"
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/14/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/27979"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2021-02-11T00:00:00.000+00:00",
+      "cve" : "2021-22112",
+      "title" : "Privilege Escalation",
+      "overview" : "spring-security-web is vulnerable to privilege escalation. The `SecurityContext` is not saved if it has been changed more than once in a single request, allowing a malicious user to run with elevated privileges in a small portion of the application, and subsequently may extend those privileges to the rest of the application.",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "Authorization" ],
+      "cvssScore" : 9.0,
+      "cvss3Score" : 8.8,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "",
+          "versionRange" : "4.0.0.M1-4.2.20.RELEASE",
+          "fixText" : "No fix version is released. Apply the fix below.",
+          "patch" : ""
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/42/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/29909"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2017-11-18T00:00:00.000+00:00",
+      "cve" : "2021-29425",
+      "title" : "Directory Traversal",
+      "overview" : "commons-io is vulnerable to directory traversal. Invoking the method `FileNameUtils.normalize` with a malicious input string would potentially allow access to files within the parent directory.",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "Injection Vulnerabilities" ],
+      "cvssScore" : 5.8,
+      "cvss3Score" : 4.8,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "2.7",
+          "versionRange" : "2.2-2.6",
+          "fixText" : "",
+          "patch" : "https://github.com/apache/commons-io/commit/2736b6fe0b3fa22ec8e2b4184897ecadb021fc78"
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/3/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/29972"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2021-10-26T00:00:00.000+00:00",
+      "cve" : "2021-22096",
+      "title" : "Log Injection",
+      "overview" : "Spring Framework is vulnerable to privilege escalation. The vulnerability exists due to lack of secure validations of user input which allows a malicious user to inject additional log files. ",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "Injection Vulnerabilities" ],
+      "cvssScore" : 4.0,
+      "cvss3Score" : 4.3,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "5.2.18.RELEASE",
+          "versionRange" : "1.0-rc1-5.2.17.RELEASE",
+          "fixText" : "",
+          "patch" : "https://github.com/spring-projects/spring-framework/compare/0853baaa3f9644df4de205a2472e71a748353e25...05ea991d6220069f089a190a86f0f3105c26c049"
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/33/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/32757"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2022-03-30T00:00:00.000+00:00",
+      "cve" : "2022-22965",
+      "title" : "Remote Code Execution (RCE)",
+      "overview" : "spring-beans is vulnerable to remote code execution. Using Spring Parameter Binding with non-basic parameter types, such as POJOs, allows an unauthenticated attacker to execute arbitrary code on the target system by writing or uploading arbitrary files (e.g .jsp files) to a location that can be loaded by the application server. \n\nInitial analysis at time of writing shows that exploitation of the vulnerability is only possible with JRE 9 and above, and Apache Tomcat 9 and above, and that the vulnerability requires the usage of Spring parameter binding with non-basic parameter types such as POJOs.",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "Configuration", "File I/O", "Injection Vulnerabilities" ],
+      "cvssScore" : 7.5,
+      "cvss3Score" : 9.8,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "5.2.20.RELEASE",
+          "versionRange" : "3.0.0.RC1-5.2.19.RELEASE",
+          "fixText" : "There are suggested workarounds if upgrade is not possible. Refer to the following blog post:",
+          "patch" : "https://github.com/spring-projects/spring-framework/commit/996f701a1916d10202c1d0d281f06ab1f2e1117e"
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/31/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/34883"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2022-03-09T00:00:00.000+00:00",
+      "cve" : "2022-22950",
+      "title" : "Denial Of Service (DoS)",
+      "overview" : "Spring Expression is vulnerable to denial of service. The vulnerability exists due to the creation of large array in a SpEL and sending meaningless error messages to the user which allows an attacker to send crafted SpEL expressions that leads to an out ouf bound error causing an application crash. ",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "Buffer Overflows", "Denial of Service" ],
+      "cvssScore" : 4.0,
+      "cvss3Score" : 6.5,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "5.2.20.RELEASE",
+          "versionRange" : "3.0.4.RELEASE-5.2.19.RELEASE",
+          "fixText" : "",
+          "patch" : "https://github.com/spring-projects/spring-framework/commit/90cfde985ef08e8372ffefda2156f8091f65efe6"
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/34/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/35014"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2022-01-11T00:00:00.000+00:00",
+      "cve" : "2022-22968",
+      "title" : "Binding Rules Bypass",
+      "overview" : "spring-context is vulnerable to binding rules bypass. The vulnerability exists due to lack of sanitization of HTTP request parameters which allows an attacker to bypass the `disallowedFields` and bind malicious HTTP request parameters. \n",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "Other" ],
+      "cvssScore" : 5.0,
+      "cvss3Score" : 5.3,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "",
+          "versionRange" : "4.0.0.M1-4.3.30.RELEASE",
+          "fixText" : "There is no fix version in this range. Apply the below fix or use alternative packages.",
+          "patch" : ""
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/32/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/35109"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2022-05-11T00:00:00.000+00:00",
+      "cve" : "2022-22970",
+      "title" : "Denial Of Service (DoS)",
+      "overview" : "spring-beans is vulnerable to denial of service. . The vulnerability exists in `CachedIntrospectionResults.java` because applications that handle file not properly validate which allows to attacker crash the application.\n\n\n\n",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "Denial of Service" ],
+      "cvssScore" : 3.5,
+      "cvss3Score" : 5.3,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "5.3.20",
+          "versionRange" : "3.0.3.RELEASE-4.3.30.RELEASE",
+          "fixText" : "There is no fixed version released in this version range. Apply the below fix or use the updated 5.3.20 or 5.2.22 packages",
+          "patch" : "https://github.com/spring-projects/spring-framework/commit/50177b1ad3485bd44239b1756f6c14607476fcf2"
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/31/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/35505"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2022-08-02T00:00:00.000+00:00",
+      "cve" : "2022-31197",
+      "title" : "SQL Injection",
+      "overview" : "PostgreSQL JDBC Driver is vulnerable to sql injection. The vulnerability exists in `java.sql.ResultRow.RefreshRow` function because it's not properly escaping column names which allows a remote attacker to inject and execute malicious sql code into the system.\n\n\n",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "SQL Injection" ],
+      "cvssScore" : 4.6,
+      "cvss3Score" : 8.0,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "42.2.26",
+          "versionRange" : "9.2-1002-jdbc4-42.2.25",
+          "fixText" : "",
+          "patch" : "https://github.com/pgjdbc/pgjdbc/commit/b5ee575b7d6e0918a58fe533f6c50b0c7e9f73c0"
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/29/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/36591"
+      },
+      "hasExploits" : false
+    }, {
+      "disclosureDate" : "2022-09-27T00:00:00.000+00:00",
+      "cve" : "2022-41853",
+      "title" : "Remote Code Execution",
+      "overview" : "HyperSQL Database is vulnerable to remote code execution. The vulnerability exists in the `supportsJavaMethod` function of `HsqlDatabaseProperties.java` due to the untrusted input process allowing an attacker to execute remote codes in the system.",
+      "language" : "JAVA",
+      "vulnerabilityTypes" : [ "Other" ],
+      "cvssScore" : 7.5,
+      "cvss3Score" : 9.8,
+      "libraries" : [ {
+        "details" : [ {
+          "updateToVersion" : "",
+          "versionRange" : "2.0.0-2.7.0",
+          "fixText" : "There is no fix version released. Apply the fix below or it is recommended to use an alternative package.",
+          "patch" : "https://github.com/ryenus/hsqldb/commit/b6719c67b41eb9298c2451ad2829bf03b262a941"
+        } ],
+        "_links" : {
+          "ref" : "/records/0/libraries/15/versions/0"
+        }
+      } ],
+      "_links" : {
+        "html" : "https://sca.analysiscenter.veracode.com/vulnerability-database/vulnerabilities/37484"
+      },
+      "hasExploits" : false
+    } ],
+    "unmatchedLibraries" : [ ],
+    "vulnMethods" : [ ]
+  } ]
+}
