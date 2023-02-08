@@ -26,3 +26,22 @@ jobs:
       with:
         # Path to SARIF file relative to the root of the repository
         sarif_file: veracode-results.sarif
+
+  upload-sca-sarif:
+      runs-on: ubuntu-latest
+
+      name: Import SCA SARIF
+      steps:
+      
+        - name: Checkout
+          uses: actions/checkout@v3
+  
+        - name: Convert SCA Scan to SARIF
+          id: convert
+          uses: Veracode/veracode-pipeline-scan-results-to-sarif@v1.0.5
+          with:
+            pipeline-results-json: sca_results.json
+            output-results-sarif: veracode-results.sarif
+            source-base-path-1: "^com/veracode:src/main/java/com/veracode"
+            source-base-path-2: "^WEB-INF:src/main/webapp/WEB-INF"
+            finding-rule-level: "3:1:0"
